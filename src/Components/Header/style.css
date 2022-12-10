@@ -32,7 +32,6 @@
 .nav-block-inner {
   display: flex;
   flex: 1;
-  align-items: center;
 }
 .nav-text {
   color: white;
