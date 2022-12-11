@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import "../Header/style.css";
 import Logo from "./logo";
 import array from "../data";
@@ -37,9 +37,15 @@ function Header() {
                 <Arrow />
               </div>
               <div className="nav-icons">
-                {icons.map(function (el, index) {
-                  return <div key={index}>{el}</div>;
-                })}
+                <div className="icon-wrapper">
+                  {icons.map(function (el, index) {
+                    return (
+                      <div className="icon-div" key={index}>
+                        {el}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
