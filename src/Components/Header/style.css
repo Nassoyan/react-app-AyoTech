@@ -8,6 +8,9 @@
   display: flex;
 }
 .logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 0 0 auto;
   width: 105px;
   height: 100%;
@@ -39,7 +42,15 @@
   font-size: 16px;
 }
 .nav-text-right {
+  display: flex;
   flex: 1;
   align-items: center;
   justify-content: flex-end;
+  background: black;
+  color: white;
+}
+.nav-text-right .nav-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
 }

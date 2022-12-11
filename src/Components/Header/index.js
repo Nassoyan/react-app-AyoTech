@@ -1,11 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../Header/style.css";
 import Logo from "./logo";
 import array from "../data";
 import Logo2 from "./logo2";
 import Arrow from "./Icons/arrow";
+import Box from "./Icons/box";
+import Heart from "./Icons/heart";
+import Plus from "./Icons/plusSvg";
+import Search from "./Icons/search";
+import Human from "./Icons/human";
 
 function Header() {
+  const icons = [<Box />, <Heart />, <Plus />, <Search />, <Human />];
   return (
     <div>
       <div className="header-wrapper">
@@ -25,7 +31,17 @@ function Header() {
                 );
               })}
             </div>
-            <div className="nav-text-right"></div>
+            <div className="nav-text-right">
+              <div className="nav-lang">
+                Ru
+                <Arrow />
+              </div>
+              <div className="nav-icons">
+                {icons.map(function (el, index) {
+                  return <div key={index}>{el}</div>;
+                })}
+              </div>
+            </div>
           </div>
           <div className="logo2">
             <Logo2 />
