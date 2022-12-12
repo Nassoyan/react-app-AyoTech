@@ -1,0 +1,121 @@
+.footer {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 106px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f1f24;
+  border: 1px solid white;
+}
+.footer .footer-inner span {
+  width: 57px;
+  height: 23px;
+  font-family: Imported;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer .top-div {
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.footer .top-div .span-div {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  width: 145px;
+  margin-top: 27px;
+  opacity: 0.3;
+}
+.footer .footer-inner {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-inner .logo-div {
+  display: flex;
+}
+.footer .footer-inner .logo-div svg {
+  width: 48px;
+  height: 48px;
+}
+.footer .footer-inner ul {
+  font-family: "Roboto";
+  font-weight: 100;
+  width: 57px;
+  color: white;
+}
+.footer .footer-inner ul,
+li {
+  list-style-type: none;
+  margin-bottom: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer .footer-inner .dbl {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+.footer .footer-inner1 {
+  color: white;
+}
+.footer .footer-inner2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footer .footer-inner2 span {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+.footer .footer-inner2 div {
+  display: flex;
+}
+.footer .footer-inner2 div button {
+  width: 80px;
+  height: 40px;
+  background: #eb5757;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  outline-style: none;
+  border: none;
+  color: white;
+}
+.footer .footer-inner2 div input {
+  padding-left: 13px;
+  outline-style: none;
+  border: none;
+  width: 221px;
+  height: 40px;
+  background: #ffffff;
+}
+.footer .footer-inner2 .subscribe {
+  margin-top: 34px;
+}
+.footer .footer-inner2 div span {
+  color: white;
+}
+::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}

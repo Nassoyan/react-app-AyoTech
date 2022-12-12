@@ -1,0 +1,66 @@
+.main-content {
+  width: 100%;
+  display: block;
+}
+.main-title {
+  width: 100%;
+  display: flex;
+}
+.content-left {
+  width: 772px;
+  flex: 0 0 auto;
+}
+.restaurant-name {
+  width: 100%;
+}
+.restaurant-name span {
+  font-weight: 900;
+  font-size: 48px;
+}
+.second-title {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.second-tlt-inner {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex: 1;
+}
+.second-tlt-inner:nth-child(2) {
+  justify-content: flex-end;
+}
+.second-tlt-95 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  margin-right: 16px;
+}
+.stars-container {
+  display: flex;
+  margin-right: 16px;
+}
+.stars {
+  margin-right: 6px;
+}
+.stars:last-child .star-span svg {
+  fill: #e3e3ec;
+}
+.icon-fb {
+  padding: 0 12px;
+}
+.big-image {
+  width: 100%;
+  margin-top: 20px;
+}
+.small-images {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

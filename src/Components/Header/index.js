@@ -1,16 +1,20 @@
 import React, { Fragment, useState } from "react";
 import "../Header/style.css";
-import Logo from "./logo";
-import array from "../data";
-import Logo2 from "./logo2";
-import Arrow from "./Icons/arrow";
-import Box from "./Icons/box";
-import Heart from "./Icons/heart";
-import Plus from "./Icons/plusSvg";
-import Search from "./Icons/search";
-import Human from "./Icons/human";
+import Logo from "../../Icons/HeaderIcons/logo";
+import array from "../../data";
+import Logo2 from "../../Icons/HeaderIcons/logo2";
+import Arrow from "../../Icons/HeaderIcons/arrow";
+import Box from "../../Icons/HeaderIcons/box";
+import Heart from "../../Icons/HeaderIcons/heart";
+import Plus from "../../Icons/HeaderIcons/plusSvg";
+import Search from "../../Icons/HeaderIcons/search";
+import Human from "../../Icons/HeaderIcons/human";
 
 function Header() {
+  const [state, setState] = useState(false);
+  function arrowChange() {
+    setState(!state);
+  }
   const icons = [<Box />, <Heart />, <Plus />, <Search />, <Human />];
   return (
     <div>
@@ -32,7 +36,10 @@ function Header() {
               })}
             </div>
             <div className="nav-text-right">
-              <div className="nav-lang">
+              <div
+                onClick={arrowChange}
+                className={`nav-lang ${!state && "slaq"}`}
+              >
                 Ru
                 <Arrow />
               </div>
