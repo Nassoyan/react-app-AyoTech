@@ -1,6 +1,8 @@
 .content-wrapper {
   padding: 0 135px;
   display: block;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .content-menu-wrapper {
   width: 100%;
@@ -28,3 +30,4 @@
 .media-icons {
   align-items: center;
 }
+

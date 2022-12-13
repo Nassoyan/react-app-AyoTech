@@ -1,6 +1,7 @@
 import "../Content/content.css";
 import ArrowRight from "../../Icons/contentIcons/arrowRight";
 import ContentLeft from "../ContentLeft";
+import About from "../ContentAbout";
 
 function Content() {
   return (
@@ -20,6 +21,7 @@ function Content() {
       </div>
 
       <ContentLeft />
+      <About/>
     </div>
   );
 }

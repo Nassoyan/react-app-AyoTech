@@ -54,7 +54,9 @@ function ContentLeft() {
           <img src={img4} alt="img" />
         </div>
       </div>
+
       <ContentRight />
+      
     </div>
   );
 }
