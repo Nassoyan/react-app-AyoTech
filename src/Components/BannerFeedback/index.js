@@ -6,6 +6,8 @@ import img from "../../Images/imgone.png";
 
 function Feedback() {
   return (
+
+    
     <div className="banner-feedback-wrapper">
       <div className="feedback-container">
         <div className="feedback-title">
@@ -34,6 +36,7 @@ function Feedback() {
             );
           })}
         </div>
+        <div className="more-feed">Еще отзывы</div>
       </div>
       <div>
         <img className="bannerImg" src={bannerImg} />

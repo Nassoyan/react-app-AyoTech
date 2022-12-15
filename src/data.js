@@ -2,6 +2,7 @@
 // import name2 from './Images/name2.png'
 // import name3 from "./Images/name3.png"
 // import img from "./Images/example.png"
+import Star from "./Icons/contentIcons/stars";
 
 
 const array = [
@@ -101,3 +102,5 @@ export const bannerData = [
   },
   
 ];
+
+

@@ -3,6 +3,7 @@ import ArrowRight from "../../Icons/contentIcons/arrowRight";
 import ContentLeft from "../ContentLeft";
 import About from "../ContentAbout";
 import Feedback from "../BannerFeedback";
+import RegisterField from "../RegisterContent";
 
 function Content() {
   return (
@@ -24,7 +25,7 @@ function Content() {
       <ContentLeft />
       <About/>
       <Feedback/>
-
+      <RegisterField />
     </div>
   );
 }
