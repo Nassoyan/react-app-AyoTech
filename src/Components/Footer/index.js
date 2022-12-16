@@ -1,52 +1,48 @@
 import React from "react";
 import "./styles.css";
-import LogoFooter from "./logofooter";
+import LogoFooter from "../../Icons/contentIcons/logofooter";
 import { menuArray1, menuArray } from "../../data";
 
 function Footer() {
   return (
     <div className="footer">
-      <div className="top-div">
-        <div className="footer-inner">
-          <div className="logo-div">
-            {" "}
-            <LogoFooter />{" "}
-          </div>
-          <div className="dbl">
-            <span>Double</span>
-            <span>bubble</span>
-          </div>
+      <div className="footer-banner">
+        <div className="footer-logo">
+          <LogoFooter />
+          <span className="footer-logo-text">Double bubble</span>
         </div>
-        <div className="span-div">
-          <span>Double bubble, 2019,</span>
-          <span>All rights reserved</span>
-        </div>
+        <span className="copyright">© Double bubble, 2019,</span>
+        <span className="copyright">все права защищены</span>
       </div>
-      <div className="footer-inner1">
+      <div className="footer-banner">
         {menuArray?.map(function (element, index) {
           return (
-            <ul className="info-1" key={index}>
-              <li>{element.name}</li>
-            </ul>
+            <span className="footer-span" key={index}>
+               {element.name}
+            </span>
           );
         })}
       </div>
-      <div className="footer-inner1">
+      <div className="footer-banner">
         {menuArray1?.map(function (element, index) {
           return (
-            <ul className="info-1" key={index}>
-              <li>{element.name}</li>
-            </ul>
+            <span className="footer-span" key={index}>
+              {element.name}
+            </span>
           );
         })}
       </div>
-      <div className="footer-inner2">
-        <span>Help</span>
-        <span>Jobs</span>
-        <span className="subscribe">Subscribe</span>
+      <div className="footer-banner">
+        <span className="footer-right-span"> Поддержка</span>
+        <span className="footer-right-span"> Вакансии</span>
+        <span className="footer-subscribe">Подпишись</span>
         <div>
-          <input placeholder="Enter your e-mail" type="text"></input>
-          <button>Send</button>
+          <input
+            className="footer-input"
+            placeholder="Введите Ваш e-mail"
+            type="text"
+          ></input>
+          <button className="footer-btn">Отправить</button>
         </div>
       </div>
     </div>

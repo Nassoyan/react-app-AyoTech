@@ -11,7 +11,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0 auto;
   width: 105px;
   height: 100%;
 }
@@ -28,8 +27,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 67px;
-  width: 67px;
+height: 100%; 
+ width: 67px;
 }
 .nav-block-inner {
   display: flex;
@@ -68,6 +67,10 @@
   justify-content: flex-end;
   align-items: center;
 }
+.icon-wrapper :nth-child(4) {
+  display: flex;
+  align-items: center;
+}
 .icon-div {
   padding: 0 20px;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
@@ -76,3 +79,53 @@
 .slaq svg {
   transform: rotate(180deg);
 }
+
+@media only screen and (max-width: 1050px) {
+ .nav-block {
+  display: none;
+ } 
+
+
+ .nav-lang {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 236px;
+ }
+
+ .nav-icons {
+  display: block;
+ }
+} 
+@media only screen and (max-width: 768px) {
+
+  .nav-icons {
+    width: 200px;
+   }
+ 
+ .nav-lang {
+  display: none;
+ }
+
+ .logo2 {
+  min-width: 72px;
+ }
+
+ .logo-wrapper {
+  min-width: 105px;
+ }
+
+.nav-text-right {
+  justify-content: flex-end;
+}
+
+.nav-block-inner {
+  padding-left: 60px;
+}
+
+ .icon-wrapper >:nth-child(3) {
+  display: none;
+ } 
+
+ 
+
+} 

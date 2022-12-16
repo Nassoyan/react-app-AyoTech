@@ -36,7 +36,7 @@ function ContentLeft() {
  
  
   const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
-  const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
+  // const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
       
   return (
     <div className="main-title">
@@ -70,7 +70,7 @@ function ContentLeft() {
             </span>
           </div>
         </div>
-        <img className="big-image" src={changeImage} alt="img" />
+        <img className="big-image" src={imgone} alt="img" />
         <div className="small-images">
           {photos?.map((item) => <img onClick={() => {
             setChangeImage(item.url)

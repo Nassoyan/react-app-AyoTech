@@ -9,8 +9,11 @@
   height: 56px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgb(168, 167, 167, 0.2);
-  margin-bottom: 40px;
+  
+}
+.stroke {
+  height: 1px;
+  background: #E3E3EC;;
 }
 .content-menu {
   width: 100%;
@@ -29,5 +32,21 @@
 }
 .media-icons {
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .content-wrapper {
+    min-width: 175px;
+    padding: 0 16px;
+  }
+
+  .stroke {
+    width: 100%
+  }
+  .content-menu {
+    padding-left: 16px;
+  }
+
 }
 

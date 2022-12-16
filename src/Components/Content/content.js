@@ -4,6 +4,7 @@ import ContentLeft from "../ContentLeft";
 import About from "../ContentAbout";
 import Feedback from "../BannerFeedback";
 import RegisterField from "../RegisterContent";
+import SLiderBubble from "../Slider";
 
 function Content() {
   return (
@@ -20,12 +21,15 @@ function Content() {
           </span>
           <span>item</span>
         </div>
+        
       </div>
-
+        <div className="stroke"></div>
       <ContentLeft />
-      <About/>
+      {/* <About/>
       <Feedback/>
       <RegisterField />
+      <SLiderBubble /> */}
+      
     </div>
   );
 }

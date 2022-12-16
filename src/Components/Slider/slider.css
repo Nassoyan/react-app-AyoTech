@@ -1,0 +1,21 @@
+.slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.slider-container>span {
+    text-align: center;
+}
+.slider-container>p {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 225px;
+}
+.slider-container>img {
+    max-width: 275px;
+    max-height: 175px;
+}

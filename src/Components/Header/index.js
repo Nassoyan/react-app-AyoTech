@@ -15,15 +15,15 @@ function Header() {
   function arrowChange() {
     setState(!state);
   }
-  const icons = [<Box />, <Heart />, <Plus />, <Search />, <Human />];
+  const icons = [ <Heart />,<Box />,<Search />, <Plus />,  <Human />];
   return (
     <div>
       <div className="header-wrapper">
         <div className="header-navigation">
           <div className="logo-wrapper">
-            <i>
+            <span>
               <Logo />
-            </i>
+            </span>
           </div>
           <div className="nav-block-inner">
             <div className="nav-block">
