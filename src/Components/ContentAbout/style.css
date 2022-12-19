@@ -33,4 +33,12 @@
     margin-top: 20px;
     margin-left: 5px;
 }
- 
+
+@media only screen and (max-width: 1440px) {
+
+    .about-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

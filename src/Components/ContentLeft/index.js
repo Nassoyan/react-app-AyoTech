@@ -11,38 +11,30 @@ import img3 from "../../Images/img3.png";
 import img4 from "../../Images/img4.png";
 import ContentRight from "../ContentRight";
 
-
-  
-
-
-
 function ContentLeft() {
-
-  const [photos, setPhotos] = useState()
-  const [changeImage, setChangeImage] = useState()
+  const [photos, setPhotos] = useState();
+  const [changeImage, setChangeImage] = useState();
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4')
-    .then(response => response.json()) 
-    .then(json => setPhotos(json))    
-  }, [])
+    fetch("https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4")
+      .then((response) => response.json())
+      .then((json) => setPhotos(json));
+  }, []);
 
-  useEffect(()=>{
-    photos?.length && setChangeImage(photos[0].url)
-  },[photos])
+  useEffect(() => {
+    photos?.length && setChangeImage(photos[0].url);
+  }, [photos]);
 
-  function render() {
-  }
- 
- 
+  function render() {}
+
   const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
   // const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
-      
+
   return (
     <div className="main-title">
       <div className="content-left">
         <div className="restaurant-name">
-          <span>Название ресторана</span>
+          <span>Restaurant Name</span>
         </div>
         <div className="second-title">
           <div className="second-tlt-inner">
@@ -56,7 +48,7 @@ function ContentLeft() {
                 );
               })}
             </div>
-            <span>56 Views</span>
+            <span className="div-56views">56 Views</span>
           </div>
           <div className="second-tlt-inner">
             <span className="social-icon">
@@ -70,16 +62,24 @@ function ContentLeft() {
             </span>
           </div>
         </div>
-        <img className="big-image" src={imgone} alt="img" />
-        <div className="small-images">
-          {photos?.map((item) => <img onClick={() => {
-            setChangeImage(item.url)
-          }} key={item.id} className="fetch-img" src={item.url}/>)}
+        <div className="img-wrapper">
+          <img className="big-image" src={changeImage} alt="img" />
+          <div className="small-images">
+            {photos?.map((item) => (
+              <img
+                onClick={() => {
+                  setChangeImage(item.url);
+                }}
+                key={item.id}
+                className="fetch-img"
+                src={item.url}
+              />
+            ))}
+          </div>
         </div>
       </div>
-              
+
       <ContentRight />
-      
     </div>
   );
 }

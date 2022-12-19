@@ -25,10 +25,10 @@ function Content() {
       </div>
         <div className="stroke"></div>
       <ContentLeft />
-      {/* <About/>
-      <Feedback/>
+      <About/>
+       <Feedback/>
       <RegisterField />
-      <SLiderBubble /> */}
+      <SLiderBubble /> 
       
     </div>
   );

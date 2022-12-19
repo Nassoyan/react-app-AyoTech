@@ -6,25 +6,25 @@ import imgslide4 from "./Images/slideimg1.png"
 
 const array = [
   {
-    name: "item",
+    name: "Онлайн",
   },
   {
-    name: "item",
+    name: "Эвенты",
   },
   {
-    name: "item",
+    name: "Рестораны",
   },
   {
-    name: "item",
+    name: "Клубы",
   },
   {
-    name: "item",
+    name: "Жилье",
   },
   {
-    name: "item",
+    name: "Аренда траспорта",
   },
   {
-    name: "item",
+    name: "Еще...",
   },
 ];
 export default array;

@@ -1,12 +1,12 @@
 .slider-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.slider-container {
+/* .slider-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 .slider-container>span {
     text-align: center;
 }
