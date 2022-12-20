@@ -21,9 +21,7 @@ function Header() {
       <div className="header-wrapper">
         <div className="header-navigation">
           <div className="logo-wrapper">
-            <span>
               <Logo />
-            </span>
           </div>
           <div className="nav-block-inner">
             <div className="nav-block">
@@ -36,15 +34,23 @@ function Header() {
               })}
             </div>
             <div className="nav-text-right">
-              <div
+              {/* <div
+                onClick={arrowChange}
+                className={`nav-lang ${!state && "slaq"}`}
+              >
+                Ru
+                <Arrow />
+              </div> */}
+              <div className="nav-icons">
+                
+                <div className="icon-wrapper">
+                <div
                 onClick={arrowChange}
                 className={`nav-lang ${!state && "slaq"}`}
               >
                 Ru
                 <Arrow />
               </div>
-              <div className="nav-icons">
-                <div className="icon-wrapper">
                   {icons.map(function (el, index) {
                     return (
                       <div className="icon-div" key={index}>

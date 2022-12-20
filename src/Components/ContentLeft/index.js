@@ -10,6 +10,7 @@ import img2 from "../../Images/img2.png";
 import img3 from "../../Images/img3.png";
 import img4 from "../../Images/img4.png";
 import ContentRight from "../ContentRight";
+import LoveIcon from "../../Icons/contentIcons/loveIcon";
 
 function ContentLeft() {
   const [photos, setPhotos] = useState();
@@ -42,24 +43,35 @@ function ContentLeft() {
             <div className="stars-container">
               {starArray.map(function (el, index) {
                 return (
-                  <div key={index} className="stars">
-                    <span className="star-span">{el}</span>
-                  </div>
+                    <span key={index} className="star-span">{el}</span>
                 );
               })}
             </div>
             <span className="div-56views">56 Views</span>
           </div>
-          <div className="second-tlt-inner">
-            <span className="social-icon">
-              <Vk />
-            </span>
-            <span className="social-icon icon-fb">
-              <Fb />
-            </span>
-            <span className="social-icon">
-              <Insta />
-            </span>
+          <div className="second-tlt-inner-icons">
+            <div className="second-title-inner-divs">
+              <div className="social-icon">
+                  <span className="social-inner-div"> <Vk/> </span>
+                  <div className="social-icon-stroke"></div>
+                  <span className="social-inner-div-num"> 16 </span>
+              </div>
+              <div className="social-icon">
+                  <span className="social-inner-div"> <Vk/> </span>
+                  <div className="social-icon-stroke"></div>
+                  <span className="social-inner-div-num"> 16 </span>
+              </div>
+              <div className="social-icon">
+                  <span className="social-inner-div"> <Vk/> </span>
+                  <div className="social-icon-stroke"></div>
+                  <span className="social-inner-div-num"> 16 </span>
+              </div>
+            </div>
+            <div>
+               <span className="social-love-icon">
+                   <LoveIcon/>
+                  </span>
+            </div>
           </div>
         </div>
         <div className="img-wrapper">

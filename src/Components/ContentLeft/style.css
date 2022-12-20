@@ -1,139 +1,192 @@
-.main-content {
-  width: 100%;
-  display: block;
-}
-.main-title {
-  width: 100%;
-  display: flex;
-}
-.content-left {
-  width: 772px;
-}
-.restaurant-name {
-  width: 100%;
-}
-.restaurant-name span {
-  font-weight: 900;
-  font-size: 48px;
-}
-.second-title {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
+  .main-content {
+    width: 100%;
+    display: block;
+  }
 
-.second-tlt-inner {
-  display: flex;
-  height: 100%;
-  align-items: center;
-}
-.second-tlt-inner:nth-child(2) {
-  justify-content: flex-end;
-}
-.div-56views {
-  color: #0085FF;
-}
-.second-tlt-95 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35px;
-  height: 25px;
-  background-color: black;
-  color: white;
-  margin-right: 16px;
-}
-.stars-container {
-  display: flex;
-  margin-right: 16px;
-}
-.stars {
-  margin-right: 6px;
-}
-.stars:last-child .star-span svg {
-  fill: #e3e3ec;
-}
-.icon-fb {
-  padding: 0 12px;
-}
-.big-image {
-  width: 100%;
-  height: 434px
-}
-.small-images {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  .main-title {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+  }
 
-}
-.fetch-img {
-  width: calc(100%/4 - 3px);
-  height: 106.48px;
+  .content-left {
+    width: 772px;
+  }
 
-}
+  .restaurant-name {
+    width: 100%;
+  }
+
+  .restaurant-name span {
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  .second-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+  }
+
+  .second-tlt-inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .div-56views {
+    color: #0085FF;
+  }
+
+  .second-tlt-95 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 25px;
+    background-color: black;
+    color: white;
+  }
+
+  .stars-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .second-tlt-inner-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .second-title-inner-divs {
+    display: flex;
+    gap: 12px;
+  }
+
+  .social-icon {
+    display: flex;
+    background: #EB5757;
+    padding: 0 7px;
+    width: 56px;height: 24px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+  }
+
+  .social-inner-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-inner-div-num {
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  .social-icon-stroke {
+    width: 1px;
+    height: 16px;
+    background: #FFFFFF;
+    opacity: 0.3;
+  }
+
+  .big-image {
+    width: 100%;
+    height: 434px
+  }
+
+  .small-images {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+  .fetch-img {
+    width: calc(100%/4 - 3px);
+    height: 106.48px;
+  }
+
+  .img-wrapper {
+    padding-top: 32px;
+  }
+
+  .social-love-icon {
+    display: none;
+  }
 
 @media only screen and (max-width: 1440px) {
 
  
 
-  .main-title {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }
+    .main-title {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+    }
 
-  .content-left {
-    width: 100%;
-  }
-
-  .big-image {
-    object-fit: cover;
-  }
-
-  .small-images {
-    object-fit: cover;
-  }
-
+    .content-left {
+      width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
 
-  .small-images {
-    display: none;
-  }
+    .main-title {
+      padding-top: 24px;
+    }
 
-  .content-left {
-    width: 100%;
-  }
+    .content-left {
+      width: 100%;
+    }
 
-  .big-image {
-    min-width: 272px;
-    height: 200px;
-  }
+    .second-title {
+      display: flex;
+      flex-direction: column;
+      margin-top: 8px;
+    }
 
-  .second-title {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 17px;
-  }
+    .restaurant-name>span {
+      font-size: 26px;
+    }
 
-  .restaurant-name>span {
-    font-size: 26px;
-  }
-  .restaurant-name {
-    min-width: 320px;  }
+    .restaurant-name {
+      min-width: 320px;  
+    }
 
-  .second-tlt-inner:nth-child(2) {
-    justify-content: unset;
-    padding-top: 16px;
-  }
+    .second-tlt-inner-icons {
+      margin-top: 16px;
+      }
 
-  .second-title {
-    margin-top: 9px;
-    min-width: 320px;
-  }
-  
+    .img-wrapper {
+      padding-top: 24px;
+    }
 
+    .big-image {
+      display: none;
+    }
+
+    .social-love-icon {
+      display: block;
+    }
+
+    .social-icon {
+      padding: 0;
+      justify-content: space-evenly;
+    }
+
+    .small-images {
+      justify-content: unset;
+      gap: 16px;
+      overflow: hidden;
+   }
+
+    .fetch-img {
+      height: 200px;
+      width: 272px;
+   }
 }

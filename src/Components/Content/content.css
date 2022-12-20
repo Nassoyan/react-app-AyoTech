@@ -6,14 +6,14 @@
 }
 .content-menu-wrapper {
   width: 100%;
-  height: 56px;
+  padding: 17px 0 16px 0;
   display: flex;
   align-items: center;
   
 }
 .stroke {
   height: 1px;
-  background: #E3E3EC;;
+  background: #E3E3EC;
 }
 .content-menu {
   width: 100%;
@@ -37,12 +37,7 @@
 @media only screen and (max-width: 768px) {
 
   .content-wrapper {
-    min-width: 175px;
     padding: 0 16px;
-  }
-
-  .stroke {
-    min-width: 320px;
   }
 
 }

@@ -28,11 +28,9 @@ function ContentRight() {
         <span className="playVideo">
           <PlayVideo />
         </span>
-        <div className="right-title-text">
-          <span className="pano-span">Смотреть панораму </span>
-          <span className="pano-span">ресторана</span>
-        </div>
+          <span className="pano-span">Панорама ресторана</span>
       </div>
+      
 
       <div className="content-right-main">
         <div className="content-right-main-inner">
@@ -63,11 +61,20 @@ function ContentRight() {
           <div className="karta">
             <a>Посмотреть на карте</a>
           </div>
+
+          <div className="resp-content-right-mobile">
+            <span>
+              <Mobile/>
+            </span>
+        
+        <span>+374 94 340 001</span>
+          </div>
+
           <div className="globe">
             <span className="globe-span">
               <Globe />
             </span>
-            <a className="sitename">google.com</a>
+            <a className="sitename">sitename.com</a>
           </div>
           <div className="content-right-logos">
             <div className="right-logo-div">
