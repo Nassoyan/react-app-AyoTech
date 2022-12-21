@@ -25,9 +25,7 @@ function ContentRight() {
   return (
     <div className="content-right">
       <div className="content-right-title">
-        <span className="playVideo">
           <PlayVideo />
-        </span>
           <span className="pano-span">Панорама ресторана</span>
       </div>
       
@@ -59,11 +57,11 @@ function ContentRight() {
             <span className="indonesia">61JI. Legian, Кута, Индонезия</span>
           </div>
           <div className="karta">
-            <a>Посмотреть на карте</a>
+            <a className="karta-text">Посмотреть на карте</a>
           </div>
 
           <div className="resp-content-right-mobile">
-            <span>
+            <span className="span-mobile">
               <Mobile/>
             </span>
         
@@ -71,14 +69,19 @@ function ContentRight() {
           </div>
 
           <div className="globe">
-            <span className="globe-span">
               <Globe />
-            </span>
             <a className="sitename">sitename.com</a>
+          </div>
+
+          <div className="media-icon-hidden">
+            <div className="media-div"><VkIcon/></div>
+            <div className="media-div"><Fb/></div>
+            <div className="media-div"><Insta/></div>
+          
           </div>
           <div className="content-right-logos">
             <div className="right-logo-div">
-              <span>
+              <span className="mobile-svg">
                 <Mobile />
               </span>
               {mediaArray.map(function (el, index) {
@@ -88,12 +91,11 @@ function ContentRight() {
                   </span>
                 );
               })}
-              <span>
+              <span className="message-svg">
                 <Message />
               </span>
             </div>
           </div>
-          <div></div>
           <div className="content-qr">
             <Qr />
             <span className="qr-span">Сканировать QR-code</span>

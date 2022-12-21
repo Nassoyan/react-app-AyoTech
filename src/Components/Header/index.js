@@ -14,14 +14,16 @@ function Header() {
   const [state, setState] = useState(false);
   function arrowChange() {
     setState(!state);
+    
+
   }
-  const icons = [ <Heart />,<Box />,<Search />, <Plus />,  <Human />];
+  const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
   return (
     <div>
       <div className="header-wrapper">
         <div className="header-navigation">
           <div className="logo-wrapper">
-              <Logo />
+            <Logo />
           </div>
           <div className="nav-block-inner">
             <div className="nav-block">
@@ -34,23 +36,20 @@ function Header() {
               })}
             </div>
             <div className="nav-text-right">
-              {/* <div
-                onClick={arrowChange}
-                className={`nav-lang ${!state && "slaq"}`}
-              >
-                Ru
-                <Arrow />
-              </div> */}
               <div className="nav-icons">
-                
                 <div className="icon-wrapper">
-                <div
-                onClick={arrowChange}
-                className={`nav-lang ${!state && "slaq"}`}
-              >
-                Ru
-                <Arrow />
-              </div>
+                  <div onClick={arrowChange}
+                       className={`nav-lang ${!state && "slaq "}`}>
+                        <div className="language-div">
+                          Ru
+                       <Arrow />
+                        </div>
+                       
+                       <div className={`lang-anim ${!state && "active" }`}>
+                        En Am Ru
+                       </div>
+                       
+                  </div>
                   {icons.map(function (el, index) {
                     return (
                       <div className="icon-div" key={index}>

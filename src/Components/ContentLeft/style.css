@@ -7,6 +7,7 @@
     width: 100%;
     display: flex;
     padding-top: 40px;
+    gap: 24px;
   }
 
   .content-left {
@@ -118,13 +119,13 @@
     display: none;
   }
 
+
 @media only screen and (max-width: 1440px) {
 
  
 
     .main-title {
       display: flex;
-      flex-direction: column;
       width: 100%;
       margin: 0 auto;
     }
@@ -132,6 +133,23 @@
     .content-left {
       width: 100%;
     }
+}
+
+@media only screen and (max-width: 1150px) {
+
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content-left {
+    width: 100%;
+  }
+
+
+  
 }
 
 @media only screen and (max-width: 768px) {
