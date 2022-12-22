@@ -16,24 +16,40 @@ function RegisterField() {
   return (
     <div className="register-wrapper">
       <div className="reg-title">Оставить отзыв</div>
+
+      <div className="reg-nav-copy">
+        <span className="your-mark">Your mark</span>
+        <div className="reg-nav-copy-stars">
+          {feedbackStarArray.map(function (el, index) {
+            return <span key={index}>{el}</span>;
+          })}
+        </div>
+      </div>
+
       <div className="reg-nav">
         <div className="feed-star-div">
           <span>Кухня</span>
-          {feedbackStarArray.map(function (el, index) {
-            return <span key={index}>{el}</span>;
-          })}
+          <div className="feed-star-div-inner">
+            {feedbackStarArray.map(function (el, index) {
+              return <span key={index}>{el}</span>;
+            })}
+          </div>
         </div>
         <div className="feed-star-div">
           <span>Обслуживание</span>
-          {feedbackStarArray.map(function (el, index) {
-            return <span key={index}>{el}</span>;
-          })}
+          <div className="feed-star-div-inner">
+            {feedbackStarArray.map(function (el, index) {
+              return <span key={index}>{el}</span>;
+            })}
+          </div>
         </div>
         <div className="feed-star-div">
-          <span>Цена/качество</span>
-          {feedbackStarArray.map(function (el, index) {
-            return <span key={index}>{el}</span>;
-          })}
+          <span>Kачество</span>
+          <div className="feed-star-div-inner">
+            {feedbackStarArray.map(function (el, index) {
+              return <span key={index}>{el}</span>;
+            })}
+          </div>
         </div>
       </div>
       <div className="input-div">

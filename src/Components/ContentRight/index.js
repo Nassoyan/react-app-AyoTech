@@ -15,7 +15,7 @@ import Qr from "../../Icons/Cont-rightIcons/Qr";
 import RingBell from "../../Icons/Cont-rightIcons/RingBell";
 import Bill from "../../Icons/Cont-rightIcons/Bill";
 import Forks from "../../Icons/Cont-rightIcons/forks";
-
+import bannerImg from "../../Images/bannerImg.png";
 function ContentRight() {
   const mediaArray = [<VkIcon />, <Fb />, <Insta />, <Insta />];
   const [state, setState] = useState(false);
@@ -119,6 +119,28 @@ function ContentRight() {
           <span className="fork-item"><Forks/> Открыть меню  </span>
           <span className="fork-item"><Forks/> Открыть меню  </span>
         </div>
+
+        <div className="kitchen-container-copy">
+        <div className="kitchen-text kitchen-city">
+            <h2>Kitchen</h2>
+            <span>European, Russian, Eastern European</span>
+        </div>
+        <div className="kitchen-text kitchen-menu">
+              <h3>Специальное меню</h3>
+              <span>Подходит для вегетарианцев, Для веганов, Безглютеновые блюда</span>
+                    
+        </div>
+        <div className="work-time">
+             <h4>Время работы:</h4> <span>вт-вс с 22:00 до последнего гостя</span>
+        </div>
+      
+
+        </div>
+
+        <div className="bannerImg-copy">
+        <img  src={bannerImg} />
+        <p>Камера в заведении</p>
+      </div>
     </div>
   );
 }

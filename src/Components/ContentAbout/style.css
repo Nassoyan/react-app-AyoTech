@@ -10,10 +10,12 @@
 .kitchen-container {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 .kitchen-text {
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 100%;
 }
 .kitchen-city>h2 {
@@ -27,18 +29,101 @@
 }
 .work-time {
     display: flex;
-}
-.work-time>span {
-    width: 180px;
-    margin-top: 20px;
-    margin-left: 5px;
+    gap: 8px
+    
+    ;
 }
 
-@media only screen and (max-width: 1440px) {
+
+.facilities {
+    display: none;
+}
+
+.facilities {
+    margin-top: 16px;
+}
+
+.span-facilities {
+    margin-top: 16px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.facilities-items-ul {
+    list-style: none; 
+    display: grid;
+    justify-items: flex-start;   
+    grid-template-columns: auto auto;   
+    padding: 0;
+    line-height: 17px;
+    gap: 16px;
+}
+
+.facilities-li {
+    display: flex;
+    align-items: center;gap: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.facilities-li::before {
+    content: "\25A0";
+    color: red; 
+    font-size: 7px; 
+    display: inline-block; 
+    width: 1em; 
+  }
+
+  .span-kitchen{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .span-menu {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .span-worktime {
+    font-weight: 900;
+font-size: 16px;
+line-height: 19px;
+  }
+
+@media only screen and (max-width: 1150px) {
+    .kitchen-container {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
 
     .about-wrapper {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
+
+    .kitchen-container {
+        display: none;
+    }
+
+    .facilities {
+        display: block;
+        padding-top: 40px;
+        margin: 0;
+    }
+    .kitchen-menu>span {
+        width: unset;
+    }
+
+    
+
+    
 
 }

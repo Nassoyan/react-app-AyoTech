@@ -3,18 +3,31 @@ import "./style.css";
 import { bannerData } from "../../data";
 import bannerImg from "../../Images/bannerImg.png";
 import img from "../../Images/imgone.png";
+import Star from "../../Icons/contentIcons/stars";
 
 function Feedback() {
-  return (
+  const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
 
-    
+  return (
     <div className="banner-feedback-wrapper">
       <div className="feedback-container">
         <div className="feedback-title">
-          <h1>Отзывы</h1>
+          <span>Reviews</span>
           <span>56</span>
           <div className="border"></div>
         </div>
+        
+          <div className="feedback-rate-div">
+            <span className="feedback-rate-num">4.5</span>
+            <div className="feedback-stars-container">
+              {starArray.map(function (el, index) {
+                return (
+                    <span key={index} className="star-span-copy">{el}</span>
+                );
+              })}
+            </div>
+          </div>
+
         <div className="each-feedback">
           {bannerData.map((item, index) => {
             return (
@@ -22,23 +35,27 @@ function Feedback() {
                 <div className="info-container">
                   <img src={item.image} />
                   <div className="info-name">
-                    <span>{item.name}</span>
+                    <span className="banner-feedback-name">{item.name}</span>
                     <div>{item.date}</div>
+                  </div>
+
+                  <div className="info-rate-copy-box">
+                    <div className="info-rate-copy">
+                      <span className="span-rating">{item.rating}</span>
+                    </div>
                   </div>
                 </div>
                 <div className="info-rate">
-                  <span>{item.rating}</span>
+                  <span className="span-rating">{item.rating}</span>
                   <div>{item.text}</div>
-                  </div>
-                  
+                </div>
               </div>
-              
             );
           })}
         </div>
-        <div className="more-feed">Еще отзывы</div>
+        <span className="more-feed">Еще отзывы</span>
       </div>
-      <div>
+      <div className="bannerImg-div">
         <img className="bannerImg" src={bannerImg} />
         <p>Камера в заведении</p>
       </div>

@@ -7,31 +7,43 @@
     font-size: 24px;
     padding-bottom: 32px;
 }
+
 .reg-nav {
     display: flex;
     width: 100%;
-    grid-column-gap: 32px;
+    gap: 32px;
     padding-bottom: 24px;
 }
+
 .reg-stars {
     display: flex;
 }
+
 .reg-nav-inner {
     display: flex;
 }
+
 .feed-star-div {
     display: flex;
     gap: 16px;
 }
+
+.feed-star-div-inner {
+    display: flex;
+    gap: 6px;
+}
+
 .input-div {
     display: flex;
     padding-bottom: 24px;
-    grid-column-gap: 24px; 
+    gap: 24px; 
 }
+
 .btn-input-container {
     height: 48px;
     border: 1px solid #C8C8DB;
 }
+
 .btn-input-container>input {
     width: 325px;
     border: none;
@@ -93,4 +105,61 @@
     transition: 0.8s;
     background: black;
     font-size: 1.6rem;
+}
+
+.reg-nav-copy {
+    display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .input-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-input-container {
+        width: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .reg-title {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 16px 0;;
+    }
+
+    .reg-nav {
+        display: none;
+    }
+
+    .your-mark {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .reg-nav-copy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .reg-nav-copy-stars {
+        display: flex;
+        gap: 6px;
+    }
+
+    .btn-input-container>input {
+        width: unset;
+    }
+
+    .input-div {
+       padding: 16px 0 16px 0;
+       gap: 16px;
+    }
+
+    
 }

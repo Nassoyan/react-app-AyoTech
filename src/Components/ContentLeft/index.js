@@ -28,7 +28,7 @@ function ContentLeft() {
 
   function render() {}
 
-  const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
+ const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
   // const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
 
   return (

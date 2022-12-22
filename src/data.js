@@ -172,4 +172,13 @@ export const slideArray = [
   }
 ]
 
+export const facilities = [
+      {name: "Air Conditioner"},
+      {name: "Smoking Room"},
+      {name: "Restaurant"},
+      {name: "Pool"},
+      {name: "Air Transport"},
+      {name: "Spa & Sauna"},
+]
+
 

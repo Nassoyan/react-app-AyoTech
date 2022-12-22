@@ -25,10 +25,19 @@
     color: #A9A9B9;
 }
 
+.feedback-title :nth-child(1) {
+    font-size: 32px;
+    color: #1F1F24;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+}
+
 
 .border {
     height: 1px;
-    width: 552px;
+    max-width: 552px;
+    width: 100%;
     background: #202057;
     margin-top: 25px;
     background: #E3E3EC;
@@ -52,6 +61,13 @@
     width: 100%;
     border-bottom: 1px solid #DDDEEB;
     padding-bottom: 15px;
+}
+
+.banner-feedback-name {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+
 }
 
 .info-container {
@@ -87,16 +103,116 @@
     align-items: center;
 }
 
+.info-rate-copy-box {
+    display: none;
+}
+
+
+
 .info-rate>div {
     padding-right: 20px;
     padding-left: 32px;
 }
 
 .more-feed {
-    padding-top: 40px;
-    max-width: 772px;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 48px;
+    padding: 40px 24px 48px 0;
     color: #0085FF;
+}
+
+.feedback-rate-num {
+    font-weight: 900;
+font-size: 32px;
+line-height: 40px;
+}
+
+.feedback-rate-div {
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+
+    .bannerImg-div {
+      display: none;   
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .bannerImg-div {
+      display: none;   
+    }
+
+    .border {
+        display: none;
+    }
+
+    .feedback-title {
+        justify-content: unset;
+        padding-top: 40px;
+    }
+
+    .feedback-title>span {
+        font-size: 20px;
+        color: #A9A9B9;
+    }
+
+    .info-rate :nth-child(1) {
+        display: none;
+    }
+
+    .info-rate-copy {
+        background: black;
+        color: white;
+        min-width: 35px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-rate-copy-box {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        margin-left: 40px;
+        align-items: center;
+    }
+
+    .more-feed {
+        justify-content: center;
+        padding: 24px 0 24px 0;
+    }
+
+    .feedback-rate-div {
+        display: flex;
+        gap: 16px;
+        padding-top: 16px;
+    }
+    
+    .feedback-stars-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    .feedback-stars-container {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .info-rate {
+        padding: 0;
+    }
+
+    .each-feedback {
+        width: 100%;
+    }
+
 }
