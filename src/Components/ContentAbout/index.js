@@ -7,7 +7,7 @@ function About() {
     <div className="about-wrapper">
       <div className="container-about">
         <h1>About Restaurant</h1>
-        <span>
+        <span className="span-about-restaurant">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -47,7 +47,7 @@ function About() {
           </span>
         </div>
         <div className="work-time">
-          <span className="span-worktime">Время работы:</span> <span>вт-вс с 22:00 до последнего гостя</span>
+          <span className="span-worktime">Время работы:</span> <span className="worktime-span">вт-вс с 22:00 до последнего гостя</span>
         </div>
       </div>
     </div>

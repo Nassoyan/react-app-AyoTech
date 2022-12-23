@@ -47,7 +47,7 @@ function Feedback() {
                 </div>
                 <div className="info-rate">
                   <span className="span-rating">{item.rating}</span>
-                  <div>{item.text}</div>
+                  <div className="rating-text">{item.text}</div>
                 </div>
               </div>
             );
@@ -57,7 +57,7 @@ function Feedback() {
       </div>
       <div className="bannerImg-div">
         <img className="bannerImg" src={bannerImg} />
-        <p>Камера в заведении</p>
+        <p className="camera-text">Камера в заведении</p>
       </div>
     </div>
   );

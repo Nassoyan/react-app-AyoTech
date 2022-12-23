@@ -31,42 +31,42 @@ export default array;
 
 export const menuArray = [
   {
-    name: "item",
+    name: "Events    ",
   },
   {
-    name: "item",
+    name: "Housing",
   },
   {
-    name: "item",
+    name: "Гест-хайс",
   },
   {
-    name: "item",
+    name: "Аппартаменты",
   },
   {
-    name: "item",
+    name: "Restaurants",
   },
   {
-    name: "item",
+    name: "Clubs",
   },
   {
-    name: "item",
+    name: "Rent transport ",
   },
   {
-    name: "item",
+    name: "Tours",
   },
 ];
 export const menuArray1 = [
   {
-    name: "item",
+    name: "Life on the island",
   },
   {
-    name: "item",
+    name: "Construction in bali",
   },
   {
-    name: "item",
+    name: "Shop",
   },
   {
-    name: "item",
+    name: "Job",
   },
   {
     name: "item",

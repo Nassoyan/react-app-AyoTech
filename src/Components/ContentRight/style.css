@@ -312,6 +312,40 @@
     justify-content: center;  
     padding-top: 24px;
   }
+
+  .work-time {
+    margin-top: 16px;
+  }
+
+  .worktime-span-copy {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .worktime-span-copy2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .kitchen-city {
+    gap: unset;
+  }
+  .kitchen-menu {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .kitchen-menu :nth-child(1) {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .camera-text {
+    margin-top: 12px;
+  }
 }
 
 
@@ -324,7 +358,7 @@
   }
 
   .content-right-title {
-    margin-top: 16px;
+    margin-top: 0;
     justify-content: flex-start;
   }
 
@@ -413,6 +447,8 @@
   .bannerImg-copy {
     justify-content: flex-start;  
   }
+
+  
 
 }
 

@@ -1,21 +1,27 @@
 .slider-wrapper {
     display: flex;
-    justify-content: space-around;
 }
-/* .slider-container {
+.slider-container {
     display: flex;
-    flex-direction: column;
+    gap: 24px;
+    height: 210px;
     justify-content: center;
-} */
-.slider-container>span {
-    text-align: center;
+
 }
-.slider-container>p {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 225px;
-}
+
+
 .slider-container>img {
-    max-width: 275px;
-    max-height: 175px;
+    height: 210px;
+    width: 374px;
+}
+
+.slick-block {
+    padding-top: 64px;
+    padding-bottom: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slick-block {
+        display: none;
+    }
 }

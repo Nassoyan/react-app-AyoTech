@@ -121,17 +121,17 @@ function ContentRight() {
         </div>
 
         <div className="kitchen-container-copy">
-        <div className="kitchen-text kitchen-city">
+        <div className=" kitchen-city">
             <h2>Kitchen</h2>
             <span>European, Russian, Eastern European</span>
         </div>
-        <div className="kitchen-text kitchen-menu">
-              <h3>Специальное меню</h3>
+        <div className=" kitchen-menu">
+              <span>Специальное меню</span>
               <span>Подходит для вегетарианцев, Для веганов, Безглютеновые блюда</span>
                     
         </div>
         <div className="work-time">
-             <h4>Время работы:</h4> <span>вт-вс с 22:00 до последнего гостя</span>
+             <span className="worktime-span-copy">Время работы: <span className="worktime-span-copy2">вт-вс с 22:00 до последнего гостя</span></span>
         </div>
       
 
@@ -139,7 +139,7 @@ function ContentRight() {
 
         <div className="bannerImg-copy">
         <img  src={bannerImg} />
-        <p>Камера в заведении</p>
+        <span className="camera-text">Камера в заведении</span>
       </div>
     </div>
   );
