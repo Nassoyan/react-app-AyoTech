@@ -25,7 +25,6 @@
   align-items: center;
   background-color: #1f1f24;
   padding: 0 0 0 30px;
-  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 19px;
   
@@ -77,6 +76,8 @@
   display: flex;
   align-items: center;
   grid-column-gap: 9px;
+  position: fixed;
+  cursor: pointer;
 }
 
 .nav-icons {
@@ -109,20 +110,36 @@
   padding-left: 16px;
 }
 
+.slaq  {
+  display: flex;
+}
 .slaq svg {
   transform: rotate(180deg);
 }
 
 .lang-anim {
+
   display: flex;
   flex-direction: column;
+  position: relative; 
+  top: 20px;
+  left: 30px;
+  animation: animatedmodel;  
+  animation-duration: 0.4s;
 }
 
-.active {
-  display: none;
+@keyframes animatedmodel {
+  from {
+    top: 0px;
+    opacity: 0;
+  }
 }
 
-@media only screen and (max-width: 1210px) {
+  .active {
+    display: none;
+  }
+
+@media only screen and (max-width: 1253px) {
 
  .nav-block {
   display: none;
@@ -131,58 +148,54 @@
  .nav-icons {
   display: block;
  }
-
- /* .logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 }
+
+
 @media only screen and (max-width: 768px) {
   
- .icon-div {
-  border: none;
- }
- 
- .icon-div {
-  padding-left: 12px;
- }
+    .icon-div {
+      border: none;
+    }
+    
+    .icon-div {
+      padding-left: 12px;
+    }
 
- .nav-lang {
-  display: none;
- }
+    .nav-lang {
+      display: none;
+    }
 
- .logo-wrapper>svg {
-  stroke: #E3E3EC; 
-  width: 46px;
-  height: 40px;
-  padding-top: 6.89px;
-}
+    .logo-wrapper>svg {
+      stroke: #E3E3EC; 
+      width: 46px;
+      height: 40px;
+      padding-top: 6.89px;
+    }
 
-.nav-text-right {
-  justify-content: flex-end;
-}
+    .nav-text-right {
+      justify-content: flex-end;
+    }
 
- .icon-wrapper >:nth-child(3) {
-  display: none;
- } 
+    .icon-wrapper >:nth-child(3) {
+      display: none;
+    } 
 
- .logo-wrapper {
-  display: flex;
-  justify-content: center;
-  width: 72px;
- }
+    .logo-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 72px;
+    }
 
- .logo-wrapper>span{
-  padding-top: 6px;
- }
+    .logo-wrapper>span{
+      padding-top: 6px;
+    }
 
- .header-navigation {
-  height: 48px;
-}
+    .header-navigation {
+      height: 48px;
+    }
 
- .nav-icons {
-  padding: 0;
- }
+    .nav-icons {
+      padding: 0;
+    }
 
 } 

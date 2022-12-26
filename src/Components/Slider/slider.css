@@ -1,26 +1,32 @@
-.slider-wrapper {
-    display: flex;
-}
-.slider-container {
-    display: flex;
-    gap: 24px;
-    height: 210px;
-    justify-content: center;
 
-}
+    .slider-container>img {
+        height: 210px;
+        width: 100%;
+    }
+
+    .slick-block {
+        padding-top: 64px;
+        padding-bottom: 90px;
+    }
+
+    .slick-slide > div {
+        margin: 0 10px;
+      }
+
+    .slick-list {
+        margin: 0 -10px;
+    }
 
 
-.slider-container>img {
-    height: 210px;
-    width: 374px;
-}
+   
+    
 
-.slick-block {
-    padding-top: 64px;
-    padding-bottom: 90px;
-}
+
+
+    
 
 @media only screen and (max-width: 768px) {
+
     .slick-block {
         display: none;
     }

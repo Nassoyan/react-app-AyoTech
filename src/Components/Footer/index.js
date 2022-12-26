@@ -51,7 +51,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-final">
-        <span className="footer-final-text">Разработка и продвижение by Good Fellazz</span>
+        <span className="footer-final-text">Разработка и продвижение by Tigran Nasoyan</span>
         <span className="footer-final-text2">Политика конфиденциальности
 </span>
       </div>

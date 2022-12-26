@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Geometria";
+    src: url("../../Fonts/Geometria-Medium.ttf") format("trutype");
+         font-weight: normal;
+  }
+
 .about-wrapper {
     width: 100%;
     display: flex;
@@ -7,7 +13,20 @@
 
 .container-about {
     max-width: 772px;
+    display: flex;
+    flex-direction: column;
 }
+
+.container-about>h1 {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1F1F24;
+}
+
+
 
 .kitchen-container {
     display: flex;
@@ -106,7 +125,6 @@
   }
 
   .span-about-restaurant {
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

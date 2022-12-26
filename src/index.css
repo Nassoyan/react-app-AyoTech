@@ -1,11 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
- 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 code {
@@ -13,12 +10,9 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: 'Lato';
-  src: local('Rajdhani'), url(./Fonts/Lato/Lato-Regular.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Geometria';
-  src: local('Rajdhani'), url(./Fonts/Geometria/Geometria-Bold.ttf) format('truetype');
-}
+
+
+
+
+
 

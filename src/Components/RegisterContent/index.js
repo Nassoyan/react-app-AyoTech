@@ -66,9 +66,7 @@ function RegisterField() {
           <input placeholder="E-mail" type="text"></input>
         </div>
       </div>
-      <div className="big-input">
         <textarea rows="13" placeholder="Your massage"></textarea>
-      </div>
       <div className="div-btn">
         <button className="reg-btn">send</button>
       </div>

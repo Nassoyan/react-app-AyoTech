@@ -2,15 +2,42 @@ import React from "react";
 import Slider from "react-slick";
 import { slideArray } from "../../data";
 import "./slider.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function SLiderBubble() {
 
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "red" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
+
      const settings = {
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
       infinite: true,
       slidesToShow: 3,
-      slidesToScroll: 1,
+      arrows: false,
+      slidesToScroll: 3,
       autoplay: true,
-      speed: 2000,
+      speed: 1000,
       autoplaySpeed: 2000,
       
       responsive: [
@@ -24,7 +51,7 @@ function SLiderBubble() {
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },

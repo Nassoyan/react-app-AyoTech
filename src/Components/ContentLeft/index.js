@@ -11,6 +11,7 @@ import img3 from "../../Images/img3.png";
 import img4 from "../../Images/img4.png";
 import ContentRight from "../ContentRight";
 import LoveIcon from "../../Icons/contentIcons/loveIcon";
+import SmallPlayIcon from "../../Icons/HeaderIcons/smallImagePlayIcon";
 
 function ContentLeft() {
   const [photos, setPhotos] = useState();
@@ -18,6 +19,7 @@ function ContentLeft() {
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4")
+    
       .then((response) => response.json())
       .then((json) => setPhotos(json));
   }, []);
@@ -77,6 +79,7 @@ function ContentLeft() {
         <div className="img-wrapper">
           <img className="big-image" src={changeImage} alt="img" />
           <div className="small-images">
+            <div className="small-images-playIcon"><SmallPlayIcon/></div>
             {photos?.map((item) => (
               <img
                 onClick={() => {

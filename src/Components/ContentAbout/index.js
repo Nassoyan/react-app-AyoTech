@@ -34,7 +34,6 @@ function About() {
           </ul>
         </div>
       </div>
-
       <div className="kitchen-container">
         <div className="kitchen-text kitchen-city">
           <span className="span-kitchen">Kitchen</span>
@@ -50,6 +49,7 @@ function About() {
           <span className="span-worktime">Время работы:</span> <span className="worktime-span">вт-вс с 22:00 до последнего гостя</span>
         </div>
       </div>
+      
     </div>
   );
 }

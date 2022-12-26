@@ -11,6 +11,9 @@
     align-items: center;
     justify-content: flex-end;
     margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .right-title-text {
@@ -39,7 +42,9 @@
   .alcohol-div {
     display: flex;
     flex-direction: column;
+    font-weight: 400;
     font-size: 14px;
+    line-height: 18px;
   }
 
   .content-right-main {
@@ -139,8 +144,8 @@
   }
 
   .content-right-logos {
-  display: flex;
-  margin-top: 9px;
+    display: flex;
+    margin-top: 9px;
   }
 
   .logoMedia {

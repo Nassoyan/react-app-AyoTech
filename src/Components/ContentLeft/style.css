@@ -39,6 +39,9 @@
 
   .div-56views {
     color: #0085FF;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
   }
 
   .second-tlt-95 {
@@ -49,6 +52,11 @@
     height: 25px;
     background-color: black;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 143.55%;
   }
 
   .stars-container {
@@ -80,11 +88,17 @@
   .social-inner-div {
     display: flex;
     align-items: center;
+   
   }
 
   .social-inner-div-num {
     font-size: 12px;
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .social-icon-stroke {
@@ -103,7 +117,23 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    position: relative;
+  }
 
+  .small-images-playIcon {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    left: 9%;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-images-playIcon>svg {
+   padding-left: 5px;
   }
 
   .fetch-img {
@@ -137,16 +167,16 @@
 
 @media only screen and (max-width: 1150px) {
 
-  .main-title {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-  }
+    .main-title {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+    }
 
-  .content-left {
-    width: 100%;
-  }
+    .content-left {
+      width: 100%;
+    }
 
 
   
@@ -201,6 +231,10 @@
       justify-content: unset;
       gap: 16px;
       overflow: scroll;
+   }
+
+   .small-images-playIcon {
+    display: none;
    }
 
     .fetch-img {

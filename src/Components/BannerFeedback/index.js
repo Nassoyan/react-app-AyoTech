@@ -4,6 +4,7 @@ import { bannerData } from "../../data";
 import bannerImg from "../../Images/bannerImg.png";
 import img from "../../Images/imgone.png";
 import Star from "../../Icons/contentIcons/stars";
+import ProgressBar from "../ProgressBar";
 
 function Feedback() {
   const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
@@ -27,7 +28,10 @@ function Feedback() {
               })}
             </div>
           </div>
-
+          <ProgressBar 
+            value={50}
+            max={100}
+            />
         <div className="each-feedback">
           {bannerData.map((item, index) => {
             return (

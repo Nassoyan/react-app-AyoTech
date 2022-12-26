@@ -67,7 +67,6 @@
     font-weight: 900;
     font-size: 16px;
     line-height: 19px;
-    font-family: "Lato";
 
 }
 
@@ -110,8 +109,8 @@
 
 .camera-text {
     font-weight: 700;
-font-size: 16px;
-line-height: 19px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .info-rate>div {
@@ -128,17 +127,14 @@ line-height: 19px;
 
 .feedback-rate-num {
     font-weight: 900;
-font-size: 32px;
-line-height: 40px;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 .feedback-rate-div {
     display: none;
 }
 
- .rating-text {
-    font-family: "Lato";
- }
 
 
 
@@ -218,15 +214,18 @@ line-height: 40px;
     .info-rate {
         padding: 0;
     }
+
     .info-rate>div {
         padding: 16px 0;
     }
 
     .each-feedback {
         width: 100%;
+        margin-top: 15px;
     }
+
     .each-feedback :nth-child(3) {
         display: none;    
-}
+    }
 
 }

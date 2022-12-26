@@ -1,0 +1,48 @@
+.progress-bar {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .progress-bar {
+        display: flex;
+        width: 100%;
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .progress-bar-text {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        gap: 10px;
+    }
+    
+    .progress-bar-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .progress-bar-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .progress-bar-span {
+        padding-left: 16px;
+        color: #A9A9B9;
+    }
+
+
+
+    
+ 
+
+    progress::-moz-progress-bar { background: #0085FF; }
+    progress::-webkit-progress-value { background: #0085FF; }
+}
