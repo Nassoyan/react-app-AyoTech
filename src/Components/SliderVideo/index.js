@@ -5,40 +5,56 @@ import "./slider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function SLiderBubble() {
+function SLiderBubbleVideo() {
 
   function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const {onClick } = props;
+
     return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "red" }}
+      <span className="SliderNextArrow">
+        <svg
         onClick={onClick}
-      />
-    );
-  }
-  
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "green" }}
-        onClick={onClick}
-      />
-    );
+        width={13}
+        height={22}
+        viewBox="0 0 13 22"
+        fill="none"
+      >
+        <path d="M1 21l10-10L1 1" stroke="#1F1F24" strokeWidth={2} />
+      </svg>
+      </span>
+      
+    )
   }
 
+  function SamplePrevArrow(props) {
+    const {onClick } = props;
+
+    return (
+      <span className="SliderPrevArrow">
+        <svg
+        onClick={onClick}
+        width={13}
+        height={22}
+        viewBox="0 0 13 22"
+        fill="none"
+      >
+        <path d="M12 1L2 11l10 10" stroke="#1F1F24" strokeWidth={2} />
+      </svg>
+      </span>
+      
+    )
+  }
+  
+
+ 
+
      const settings = {
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
       infinite: true,
       slidesToShow: 3,
-      arrows: false,
-      slidesToScroll: 3,
-      autoplay: true,
-      speed: 1000,
-      autoplaySpeed: 2000,
+      slidesToScroll: 1,
+      speed: 500,
+      nextArrow: <SampleNextArrow/>,
+      prevArrow: <SamplePrevArrow/>,
       
       responsive: [
         {
@@ -89,4 +105,4 @@ function SLiderBubble() {
   );
 }
 
-export default SLiderBubble;
+export default SLiderBubbleVideo;

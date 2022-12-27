@@ -4,7 +4,8 @@ import ContentLeft from "../ContentLeft";
 import About from "../ContentAbout";
 import Feedback from "../BannerFeedback";
 import RegisterField from "../RegisterContent";
-import SLiderBubble from "../Slider";
+import SLiderBubbleVideo from "../SliderVideo";
+import SLiderBubblePhoto from "../SliderPhoto";
 
 function Content() {
   return (
@@ -28,7 +29,8 @@ function Content() {
       <About/>
        <Feedback/>
       <RegisterField />
-      <SLiderBubble /> 
+      <SLiderBubbleVideo /> 
+      <SLiderBubblePhoto />
       
     </div>
   );

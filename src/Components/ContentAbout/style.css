@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 43px;
+    margin-top: 53px;
 }
 
 .container-about {
@@ -69,42 +70,8 @@
     display: none;
 }
 
-.facilities {
-    margin-top: 16px;
-}
 
-.span-facilities {
-    margin-top: 16px;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 100%;
-}
 
-.facilities-items-ul {
-    list-style: none; 
-    display: grid;
-    justify-items: flex-start;   
-    grid-template-columns: auto auto;   
-    padding: 0;
-    line-height: 17px;
-    gap: 16px;
-}
-
-.facilities-li {
-    display: flex;
-    align-items: center;gap: 15px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-}
-
-.facilities-li::before {
-    content: "\25A0";
-    color: red; 
-    font-size: 7px; 
-    display: inline-block; 
-    width: 1em; 
-  }
 
   .span-kitchen{
     font-weight: 900;
@@ -129,6 +96,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin-top: 24px;
   }
 
 @media only screen and (max-width: 1150px) {
@@ -153,13 +121,54 @@
     .facilities {
         display: block;
         padding-top: 40px;
-        margin: 0;
     }
+
+    .span-facilities {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+    .facilities-items {
+        margin-top: 16px;
+    }
+    
+    .facilities-items-ul {
+        list-style: none; 
+        display: grid;
+        justify-items: flex-start;   
+        grid-template-columns: auto auto;   
+        padding: 0;
+        line-height: 17px;
+        gap: 16px;
+    }
+    
+    .facilities-li {
+        display: flex;
+        align-items: center;gap: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .facilities-li::before {
+        content: "\25A0";
+        color: red; 
+        font-size: 7px; 
+        display: inline-block; 
+        width: 1em; 
+      }
     .kitchen-menu>span {
         width: unset;
     }
 
-    
+    .span-about-restaurant {
+        margin-top: 8px;
+    }
+
+    .container-about {
+        margin-top: 40px;
+    }
 
     
 

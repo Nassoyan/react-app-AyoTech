@@ -5,6 +5,8 @@ import bannerImg from "../../Images/bannerImg.png";
 import img from "../../Images/imgone.png";
 import Star from "../../Icons/contentIcons/stars";
 import ProgressBar from "../ProgressBar";
+import BannerPLayIcon from "../../Icons/contentIcons/BannerPlayIcon";
+
 
 function Feedback() {
   const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
@@ -40,7 +42,7 @@ function Feedback() {
                   <img src={item.image} />
                   <div className="info-name">
                     <span className="banner-feedback-name">{item.name}</span>
-                    <div>{item.date}</div>
+                    <div className="banner-feedback-date">{item.date}</div>
                   </div>
 
                   <div className="info-rate-copy-box">
@@ -60,6 +62,8 @@ function Feedback() {
         <span className="more-feed">Еще отзывы</span>
       </div>
       <div className="bannerImg-div">
+      <BannerPLayIcon />
+
         <img className="bannerImg" src={bannerImg} />
         <p className="camera-text">Камера в заведении</p>
       </div>

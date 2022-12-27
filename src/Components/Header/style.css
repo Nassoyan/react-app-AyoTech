@@ -35,6 +35,7 @@
 }
 
 .logo2 {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,8 +77,8 @@
   display: flex;
   align-items: center;
   grid-column-gap: 9px;
-  position: fixed;
   cursor: pointer;
+  position: relative;
 }
 
 .nav-icons {
@@ -118,19 +119,18 @@
 }
 
 .lang-anim {
-
   display: flex;
   flex-direction: column;
-  position: relative; 
-  top: 20px;
-  left: 30px;
+  position: absolute;
+  top: 42px;
+  right: 310px;
   animation: animatedmodel;  
   animation-duration: 0.4s;
 }
 
 @keyframes animatedmodel {
   from {
-    top: 0px;
+    top: 20px;
     opacity: 0;
   }
 }
