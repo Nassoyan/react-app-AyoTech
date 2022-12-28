@@ -223,12 +223,10 @@
     .feedback-stars-container {
         display: flex;
         align-items: center;
-    }
-    
-    .feedback-stars-container {
-        display: flex;
-        align-items: center;
         gap: 6px;
+    }
+    .feedback-stars-container span:last-Child svg path{
+        fill: #E3E3EC;
     }
 
     .info-rate {

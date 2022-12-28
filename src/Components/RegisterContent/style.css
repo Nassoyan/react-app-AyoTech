@@ -52,6 +52,7 @@
 textarea {
     padding: 16px;
     border: 1px solid #C8C8DB;
+    outline-style: none;
 }
 
 .div-btn {
@@ -89,11 +90,7 @@ textarea {
     padding-bottom: 32px;
 }
 
-.big-input>textarea{
-    border: 1px solid #C8C8DB;
-    outline-style: none;
-    width: 100%;
-}
+
 
 .reg-btn {
     width: 174px;

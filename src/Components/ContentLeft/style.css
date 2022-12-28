@@ -65,6 +65,10 @@
     gap: 6px;
   }
 
+  .stars-container span:last-child svg path  {
+    fill: #E3E3EC;
+ }
+
   .second-tlt-inner-icons {
     display: flex;
     justify-content: space-between;
@@ -230,7 +234,7 @@
     .small-images {
       justify-content: unset;
       gap: 16px;
-      overflow: scroll;
+      overflow: hidden;
    }
 
    .small-images-playIcon {

@@ -106,7 +106,7 @@ function SLiderBubblePhoto() {
                 <p className="slider-second-p">{item.text}</p>
                 <div className="second-tlt-inner">
             <span className="second-tlt-95">9.5</span>
-            <div className="stars-container">
+            <div className="stars-container-slider">
               {starArray.map(function (el, index) {
                 return (
                     <span key={index} className="star-span">{el}</span>

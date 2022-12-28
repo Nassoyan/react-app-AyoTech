@@ -31,10 +31,10 @@
     .progress-bar-box {
         display: flex;
         align-items: center;
+        gap: 16px;
     }
 
     .progress-bar-span {
-        padding-left: 16px;
         color: #A9A9B9;
     }
 

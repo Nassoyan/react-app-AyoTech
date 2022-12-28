@@ -25,8 +25,8 @@
 
 .slider-first-p {
     font-weight: 700;
-font-size: 18px;
-line-height: 22px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .slider-second-p {
@@ -34,8 +34,8 @@ line-height: 22px;
     margin-bottom: 16px;
     color: #A9A9B9;
     font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
     
 }
 
@@ -49,8 +49,17 @@ line-height: 24px;
     position: absolute;
     right: -31px;
     top: 202.5px;
-
 }
+
+.stars-container-slider {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.stars-container-slider span:last-child svg path  {
+    fill: #E3E3EC;
+ }
 
 
 @media only screen and (max-width: 768px) {

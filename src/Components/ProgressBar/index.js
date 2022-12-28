@@ -2,6 +2,7 @@ import "./style.css";
 import React from "react";
 
 function ProgressBar(props) {
+
   return (
     <div className="progress-bar">
         <div className="progress-bar-text">

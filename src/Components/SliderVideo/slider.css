@@ -17,13 +17,12 @@
         margin: 0 10px;
       }
 
-    .slick-list {
-        margin: 0 -10px;
-    }
+      .slick-list {
+        margin: 0 -10px !important;
+      }
 
-    .slick-list>div {
-        margin: 0;
-    }
+    
+   
    
     .SliderPrevArrow {
         position: absolute;
