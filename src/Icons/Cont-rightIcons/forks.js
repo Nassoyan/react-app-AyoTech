@@ -18,4 +18,4 @@ function Forks() {
   )
 }
 
-export default Forks
+export default Forks;

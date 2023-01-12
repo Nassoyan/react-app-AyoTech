@@ -13,4 +13,4 @@ function BannerPLayIcon() {
   )
 }
 
-export default BannerPLayIcon
+export default BannerPLayIcon;

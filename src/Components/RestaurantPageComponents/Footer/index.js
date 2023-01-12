@@ -1,8 +1,9 @@
 import React from "react";
 import "./styles.css";
-import LogoFooter from "../../Icons/contentIcons/logofooter";
-import { menuArray1, menuArray } from "../../data";
-import LogoFooterSmall from "../../Icons/contentIcons/logofootersmall";
+import LogoFooter from "../../../Icons/contentIcons/logofooter";
+// import { menuArray1, menuArray } from "../../../data";
+import LogoFooterSmall from "../../../Icons/contentIcons/logofootersmall";
+import { menuArray, menuArray1 } from "../../../data";
 
 function Footer() {
   return (

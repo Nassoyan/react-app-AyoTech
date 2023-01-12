@@ -32,4 +32,4 @@ function Qr() {
   )
 }
 
-export default Qr
+export default Qr;

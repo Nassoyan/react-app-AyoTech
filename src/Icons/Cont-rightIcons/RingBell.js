@@ -20,4 +20,4 @@ function RingBell() {
   )
 }
 
-export default RingBell
+export default RingBell;

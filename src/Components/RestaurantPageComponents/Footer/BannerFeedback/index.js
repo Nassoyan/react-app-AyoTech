@@ -1,11 +1,15 @@
 import React from "react";
-import "./style.css";
-import { bannerData } from "../../data";
-import bannerImg from "../../Images/bannerImg.png";
-import img from "../../Images/imgone.png";
-import Star from "../../Icons/contentIcons/stars";
+import { bannerData } from "../../../../data";
+import BannerPLayIcon from "../../../../Icons/contentIcons/BannerPlayIcon";
+import Star from "../../../../Icons/contentIcons/stars";
 import ProgressBar from "../ProgressBar";
-import BannerPLayIcon from "../../Icons/contentIcons/BannerPlayIcon";
+import "./style.css"
+import bannerImg from "../../../../Images/bannerImg.png";
+// import { bannerData } from "../../data";
+// // import img from "../../Images/imgone.png";
+// import Star from "../../Icons/contentIcons/stars";
+// import ProgressBar from "../RestaurantPage Components/Footer/ProgressBar";
+// import BannerPLayIcon from "../../Icons/contentIcons/BannerPlayIcon";
 
 
 function Feedback() {

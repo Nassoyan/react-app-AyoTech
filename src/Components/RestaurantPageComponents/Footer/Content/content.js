@@ -1,11 +1,12 @@
-import "../Content/content.css";
-import ArrowRight from "../../Icons/contentIcons/arrowRight";
+import "./content.css";
+import ArrowRight from "../../../../Icons/contentIcons/arrowRight";
 import ContentLeft from "../ContentLeft";
 import About from "../ContentAbout";
-import Feedback from "../BannerFeedback";
+// import Feedback from "../../../BannerFeedback";
 import RegisterField from "../RegisterContent";
 import SLiderBubbleVideo from "../SliderVideo";
 import SLiderBubblePhoto from "../SliderPhoto";
+import Feedback from "../BannerFeedback";
 
 function Content() {
   return (
@@ -25,14 +26,13 @@ function Content() {
         
       </div>
         <div className="stroke"></div>
-      <ContentLeft />
-      <About/>
-       <Feedback/>
-      <RegisterField />
-      <SLiderBubbleVideo /> 
-      <SLiderBubblePhoto />
-      
-    </div>
+            <ContentLeft />
+            <About/>
+            <Feedback/>
+            <RegisterField />
+            <SLiderBubbleVideo /> 
+            <SLiderBubblePhoto />
+        </div>
   );
 }
 

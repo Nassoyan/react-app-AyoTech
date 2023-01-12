@@ -1,9 +1,12 @@
 import React from "react";
+import WhiteStar from "../../../../Icons/contentIcons/WhiteStars";
 import "./style.css";
-import Star from "../../Icons/contentIcons/stars";
-import WhiteStar from "../../Icons/contentIcons/WhiteStars";
-import FeedPerson from "../../Icons/contentIcons/feedbackPerson";
-import FeedEmail from "../../Icons/contentIcons/feedE-mail";
+import FeedPerson from "../../../../Icons/contentIcons/feedbackPerson";
+import FeedEmail from "../../../../Icons/contentIcons/feedE-mail";
+// import Star from "../../Icons/contentIcons/stars";
+// import WhiteStar from "../../Icons/contentIcons/WhiteStars";
+// import FeedPerson from "../../Icons/contentIcons/feedbackPerson";
+// import FeedEmail from "../../Icons/contentIcons/feedE-mail";
 
 function RegisterField() {
   const feedbackStarArray = [
@@ -55,7 +58,7 @@ function RegisterField() {
       <div className="input-div">
         <div className="btn-input-container">
           <div className="feed-div">
-            <FeedPerson />
+            <FeedPerson/>
           </div>
           <input placeholder="Name" type="text"></input>
         </div>

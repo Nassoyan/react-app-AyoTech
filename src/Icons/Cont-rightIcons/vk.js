@@ -19,4 +19,4 @@ function VkIcon() {
   )
 }
 
-export default VkIcon
+export default VkIcon;

@@ -19,4 +19,4 @@ function Fb() {
   )
 }
 
-export default Fb
+export default Fb;

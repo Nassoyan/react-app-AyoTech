@@ -19,4 +19,4 @@ function Insta() {
   )
 }
 
-export default Insta
+export default Insta;

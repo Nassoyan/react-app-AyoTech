@@ -18,4 +18,4 @@ function Geo() {
   )
 }
 
-export default Geo
+export default Geo;

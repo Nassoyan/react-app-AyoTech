@@ -24,4 +24,4 @@ function Bill() {
   )
 }
 
-export default Bill
+export default Bill;

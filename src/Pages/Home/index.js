@@ -1,4 +1,4 @@
-import HomePageHeader from "../../Components/HomPageHeader"
+import HomePageHeader from "../../Components/HomePageComponents/HomPageHeader"
 
 function Home() {
     return (

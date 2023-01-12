@@ -4,6 +4,34 @@ import imgslide3 from "./Images/slideimg1.png"
 import imgslide4 from "./Images/slideimg1.png"
 
 
+
+export const homePageTitleArray =  [
+  {
+    name: "Chemical brothers",
+    date: "16th Aug"
+  },
+  {
+    name: "Skyline sound",
+    date: "6th Mar"
+  },
+  {
+    name: "Wilmax",
+    date: "26th Mar"
+  },
+  {
+    name: "England",
+    date: "16th Jul"
+  },
+  {
+    name: "Skydiving",
+    date: "6th Jan"
+  },
+  {
+    name: "Night party",
+    date: "6th Mar"
+  },
+]
+
 const array = [
   {
     name: "Онлайн",
