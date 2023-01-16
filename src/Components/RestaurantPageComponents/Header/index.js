@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 
-import array from "../../../../data";
-import Arrow from "../../../../Icons/HeaderIcons/arrow";
-import Box from "../../../../Icons/HeaderIcons/box";
-import Heart from "../../../../Icons/HeaderIcons/heart";
-import Human from "../../../../Icons/HeaderIcons/human";
-import Logo from "../../../../Icons/HeaderIcons/logo";
-import Logo2 from "../../../../Icons/HeaderIcons/logo2";
-import Plus from "../../../../Icons/HeaderIcons/plusSvg";
-import Search from "../../../../Icons/HeaderIcons/search";
+import array from "../../../data";
+import Arrow from "../../../Icons/HeaderIcons/arrow";
+import Box from "../../../Icons/HeaderIcons/box";
+import Heart from "../../../Icons/HeaderIcons/heart";
+import Human from "../../../Icons/HeaderIcons/human";
+import Logo from "../../../Icons/HeaderIcons/logo";
+import Logo2 from "../../../Icons/HeaderIcons/logo2";
+import Plus from "../../../Icons/HeaderIcons/plusSvg";
+import Search from "../../../Icons/HeaderIcons/search";
 import "../Header/style.css";
+import SideBar from "../SideBar.js";
 // import Logo from "../../Icons/HeaderIcons/logo";
 // import array from "../../data";
 // import Logo2 from "../../Icons/HeaderIcons/logo2";
@@ -22,20 +23,19 @@ import "../Header/style.css";
 // import Search from "../../Icons/HeaderIcons/search";
 // import Human from "../../Icons/HeaderIcons/human";
 
-function Header() {
+function Header(props) {
   const [state, setState] = useState(false);
   function arrowChange() {
     setState(!state);
-    
-
   }
+
   const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
   return (
     <div>
       <div className="header-wrapper">
         <div className="header-navigation">
           <div className="logo-wrapper">
-            <Link to="/home">
+            <Link to="/">
               <Logo />
             </Link>
           </div>

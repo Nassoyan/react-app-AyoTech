@@ -23,4 +23,4 @@ function LogoFooter() {
   )
 }
 
-export default LogoFooter
+export default LogoFooter;

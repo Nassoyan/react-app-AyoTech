@@ -1,20 +1,20 @@
 import React from "react";
 import { useState } from "react";
-import Bill from "../../../../Icons/Cont-rightIcons/Bill";
-import Fb from "../../../../Icons/Cont-rightIcons/fb";
-import Forks from "../../../../Icons/Cont-rightIcons/forks";
-import Insta from "../../../../Icons/Cont-rightIcons/Insta";
-import Message from "../../../../Icons/Cont-rightIcons/message";
-import Mobile from "../../../../Icons/Cont-rightIcons/mobile";
-import Qr from "../../../../Icons/Cont-rightIcons/Qr";
-import RingBell from "../../../../Icons/Cont-rightIcons/RingBell";
-import VkIcon from "../../../../Icons/Cont-rightIcons/vk";
-import Dollar from "../../../../Icons/contentIcons/dollar";
-import Geo from "../../../../Icons/contentIcons/geo";
-import Globe from "../../../../Icons/contentIcons/globe";
-import LoveIcon from "../../../../Icons/contentIcons/loveIcon";
-import PlayVideo from "../../../../Icons/contentIcons/playVideo";
-import bannerImg from "../../../../Images/bannerImg.png"
+import Bill from "../../../Icons/Cont-rightIcons/Bill";
+import Fb from "../../../Icons/Cont-rightIcons/fb";
+import Forks from "../../../Icons/Cont-rightIcons/forks";
+import Insta from "../../../Icons/Cont-rightIcons/Insta";
+import Message from "../../../Icons/Cont-rightIcons/message";
+import Mobile from "../../../Icons/Cont-rightIcons/mobile";
+import Qr from "../../../Icons/Cont-rightIcons/Qr";
+import RingBell from "../../../Icons/Cont-rightIcons/RingBell";
+import VkIcon from "../../../Icons/Cont-rightIcons/vk";
+import Dollar from "../../../Icons/contentIcons/dollar";
+import Geo from "../../../Icons/contentIcons/geo";
+import Globe from "../../../Icons/contentIcons/globe";
+import LoveIcon from "../../../Icons/contentIcons/loveIcon";
+import PlayVideo from "../../../Icons/contentIcons/playVideo";
+import bannerImg from "../../../Images/bannerImg.png"
 import "./style.css";
 // import PlayVideo from "../../Icons/contentIcons/playVideo";
 // import Dollar from "../../Icons/contentIcons/dollar";

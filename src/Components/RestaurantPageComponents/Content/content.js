@@ -1,5 +1,5 @@
 import "./content.css";
-import ArrowRight from "../../../../Icons/contentIcons/arrowRight";
+import ArrowRight from "../../../Icons/contentIcons/arrowRight";
 import ContentLeft from "../ContentLeft";
 import About from "../ContentAbout";
 // import Feedback from "../../../BannerFeedback";

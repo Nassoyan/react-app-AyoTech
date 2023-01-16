@@ -21,7 +21,6 @@ function HomePageHeader() {
 
     const restaurantItem = array[2]
     
-    // console.log(restaurantItem);
 
 
     const [state, setState] = useState(false);
@@ -41,7 +40,7 @@ function HomePageHeader() {
             <div className="nav-block-homepage">
               {array.map(function (el, index) {
                 return (
-                  <Link className="homepage-link" key={index} to={el===restaurantItem ? "/" : "/home"}>
+                  <Link className="homepage-link" key={index} to={el===restaurantItem ? "/restaurants" : "/"}>
                     <p className="nav-text-homepage" key={index}>
                       {el.name}
                     </p>
@@ -75,7 +74,6 @@ function HomePageHeader() {
               </div>
             </div>
           </div>
-          <div className="homepage-stroke"></div>
             <div className="logo2">
               <Logo2 />
            </div>
@@ -96,8 +94,14 @@ function HomePageHeader() {
                       <div className="homepage-title-inner-last">
                           <HomeArrowDown/>
                       </div>
-                      
                  </div>
+              </div>
+              <div className="homepage-slide-title">
+                      <h2 className="slide-title-h2">Online</h2>
+                      <div className="homepage-stroke"></div>
+                      <div className="homepage-slide-title-All">
+                        <span>All</span>
+                      </div>
               </div>
     </div>
   );

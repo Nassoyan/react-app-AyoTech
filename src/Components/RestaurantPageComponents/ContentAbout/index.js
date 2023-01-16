@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { facilities } from "../../../../data";
+import { facilities } from "../../../data";
 
 function About() {
   return (

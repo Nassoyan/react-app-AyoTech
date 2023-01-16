@@ -4,6 +4,40 @@ import imgslide3 from "./Images/slideimg1.png"
 import imgslide4 from "./Images/slideimg1.png"
 
 
+export const popUp =[
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "Shop",
+  },
+  {
+    name: "Job",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  },
+]
+
+
 
 export const homePageTitleArray =  [
   {

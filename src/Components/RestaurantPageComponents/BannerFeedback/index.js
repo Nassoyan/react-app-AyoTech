@@ -1,10 +1,10 @@
 import React from "react";
-import { bannerData } from "../../../../data";
-import BannerPLayIcon from "../../../../Icons/contentIcons/BannerPlayIcon";
-import Star from "../../../../Icons/contentIcons/stars";
+import { bannerData } from "../../../data";
+import BannerPLayIcon from "../../../Icons/contentIcons/BannerPlayIcon";
+import Star from "../../../Icons/contentIcons/stars";
 import ProgressBar from "../ProgressBar";
 import "./style.css"
-import bannerImg from "../../../../Images/bannerImg.png";
+import bannerImg from "../../../Images/bannerImg.png";
 // import { bannerData } from "../../data";
 // // import img from "../../Images/imgone.png";
 // import Star from "../../Icons/contentIcons/stars";

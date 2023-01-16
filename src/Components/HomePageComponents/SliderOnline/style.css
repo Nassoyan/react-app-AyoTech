@@ -1,0 +1,143 @@
+.homepage-slider-wrapper {
+    margin-top: 60px;
+}
+
+.slick-block-photo-homepage {
+    left: 24%;
+    width: 100%;
+    top:  -508px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.slider-photo-title-homepage {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.slider-photo-container-homepage>img {
+    height: 238px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.slider-photo-div-container-homepage {
+    padding: 24px;
+    border: 1px solid #E3E3EC;
+
+}
+
+.slider-photo-container-homepage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+    
+}
+
+.slider-first-p-homepage {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.slider-second-p-homepage {
+    margin-top: 18px;
+    margin-bottom: 16px;
+    color: #A9A9B9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.SliderPrevArrow-photo-homepage {
+    position: absolute;
+    left: -31px;
+    top: 202.5px;
+}
+
+.SliderNextArrow-photo-homepage {
+    position: absolute;
+    right: 731px;
+    top: 202.5px;
+}
+
+.stars-container-slider-homepage {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.stars-container-slider-homepage span:last-child svg path  {
+    fill: #E3E3EC;
+ 
+}
+
+.homepage-arrow-container {
+    height: 532px;
+    max-width: 410px;
+    border: 1px solid #1F1F24;
+    position: relative;
+    z-index: -100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-arrow-container:first-child {
+    padding-top: 114px;
+}
+
+.homepage-arrow-circle-2 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-arrow-circle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hom-slider-red-circle {
+    width: 18px;
+    height: 18px;
+    background: #EB5757;
+    border-radius: 50%;
+}
+
+.home-slide-span {
+    color: #C9CCD3;
+}
+
+.homepage-arrow-circle {
+width: 56px;
+height: 56px;
+border: 4px solid rgba(31,31,36, .2);
+}
+
+.homepage-arrow-count {
+    display: flex;
+    gap: 17px;
+    margin-top: 71px;
+
+}
+
+.arrowcount-secondspan {
+    padding-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .slick-block-photo-homepage {
+        display: none;
+    }
+}

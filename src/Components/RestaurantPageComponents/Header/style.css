@@ -140,6 +140,13 @@
   display: none;
 }
 
+.popup {
+  display: flex;
+  height: 100vh;
+}
+
+
+
 @media only screen and (max-width: 1253px) {
   .nav-block {
     display: none;

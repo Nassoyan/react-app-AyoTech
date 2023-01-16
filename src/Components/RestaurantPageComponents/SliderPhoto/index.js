@@ -5,8 +5,8 @@ import "./style.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { slideArray } from "../../../../data";
-import Star from "../../../../Icons/contentIcons/stars";
+import { slideArray } from "../../../data";
+import Star from "../../../Icons/contentIcons/stars";
 
 function SLiderBubblePhoto() {
 
