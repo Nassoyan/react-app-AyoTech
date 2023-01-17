@@ -12,7 +12,6 @@ import Logo2 from "../../../Icons/HeaderIcons/logo2";
 import Plus from "../../../Icons/HeaderIcons/plusSvg";
 import Search from "../../../Icons/HeaderIcons/search";
 import "../Header/style.css";
-import SideBar from "../SideBar.js";
 // import Logo from "../../Icons/HeaderIcons/logo";
 // import array from "../../data";
 // import Logo2 from "../../Icons/HeaderIcons/logo2";

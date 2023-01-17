@@ -1,4 +1,5 @@
 import HomePageHeader from "../../Components/HomePageComponents/HomPageHeader"
+import SliderEvents from "../../Components/HomePageComponents/SliderEvents"
 import SliderOnline from "../../Components/HomePageComponents/SliderOnline"
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
         <div>
             <HomePageHeader />
             <SliderOnline />
+            <SliderEvents/>
         </div>
     )
 }

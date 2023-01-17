@@ -1,0 +1,21 @@
+    .slider-photo-div-container-homepage-events {
+    }
+
+    .slider-photo-container-homepage-events>img {
+        height: 412px;
+        width: 100%;
+        margin-top: 32px;
+        object-fit: cover;
+    }
+
+    .slider-photo-container-homepage-events {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+
+    .slider-photo-div-container-homepage-events {
+        background: #FFFFFF;
+    }
+
+ 

@@ -37,6 +37,53 @@ export const popUp =[
   },
 ]
 
+export const slideImgArray = [
+  {url: "https://onestep4ward.com/wp-content/uploads/2011/01/Destino-Ibiza-Pacha.jpg",
+   name: "Club party", 
+   date: "06th Mar"
+  },
+  {url: "https://a.cdn-hotels.com/gdcs/production7/d1643/aad2d40a-3779-4452-bdda-b54f04b5b961.jpg",
+   name: "Night party", 
+   date: "06th Mar"
+  },
+  {url: "https://s4x9x8w4.stackpathcdn.com/sites/default/files/styles/auto_1500_width/public/article-images/137508/slideshow-1644163476.jpg",
+   name: "Beach party", 
+   date: "06th Mar"
+  },
+  {url: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Ibiza/hi-ibiza-ibiza-travel-guide-nightlife.jpg?imwidth=480",
+   name: "Lime party", 
+   date: "06th Mar"
+  },
+  {url: "https://www.theworldbucketlist.com/wp-content/uploads/2021/09/bora-bora-ibiza.jpg",
+   name: "Zoo party", 
+   date: "06th Mar"
+  },
+  {url: "https://britonthemove.com/wp-content/uploads/2022/05/Ibiza-Clubs.jpg",
+   name: "Purple party", 
+   date: "06th Mar"
+  },
+  {url: "https://www.ravejungle.com/wp-content/uploads/2020/03/Glitterbox_Credit-H%C3%AF-Ibiza-2019-5.jpg",
+   name: "Zumba party", 
+   date: "06th Mar"
+  },
+  {url: "https://aceworkers.b-cdn.net/wp-content/uploads/2021/02/pacha-ibiza.jpg",
+   name: "Viva party", 
+   date: "06th Mar"
+  },
+  {url: "https://onthebeatingtravel.com/wp-content/uploads/2021/11/what-to-wear-clubbing-in-ibiza.jpg",
+   name: "Wilmax party", 
+   date: "08th Mar"
+  },
+  {url: "https://a.storyblok.com/f/116532/2048x1365/5cddcc14d9/hi_ibiza_nightclub.jpg",
+   name: "Fire party", 
+   date: "08th Mar"
+  },
+  {url: "https://italiantripabroad.it/Blog/wp-content/uploads/2018/07/party-ibiza-spain-espana-ushuaia-ibiza-weekender-ibiza-club.jpg",
+   name: "Irina party", 
+   date: "08th Mar"
+  },
+]
+
 
 
 export const homePageTitleArray =  [

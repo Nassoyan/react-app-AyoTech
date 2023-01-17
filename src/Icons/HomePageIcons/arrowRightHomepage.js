@@ -8,7 +8,7 @@ function ArrowRight() {
       viewBox="0 0 20 16"
       fill="none"
     >
-      <path d="M20 8H2m0 0l7 7M2 8l7-7" stroke="#1F1F24" strokeWidth={2} />
+      <path d="M0 8h18m0 0l-7-7m7 7l-7 7" stroke="#1F1F24" strokeWidth={2} />
     </svg>
   )
 }

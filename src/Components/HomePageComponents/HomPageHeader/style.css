@@ -160,7 +160,7 @@
     }
 
     .homepage-slide-title-All {
-      width: 67px;
+      min-width: 67px;
       height: 43px;
       border: 2px solid #0085FF;
       display: flex;
