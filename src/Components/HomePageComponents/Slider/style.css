@@ -1,13 +1,29 @@
 .homepage-slider-wrapper {
-    margin-top: 60px;
     position: relative;
+    margin-top: -96px;
+    margin-bottom: 161px;
 }
+
+.homepage-slide-title {
+    display: flex;
+    padding-right:120px;
+    padding-left: 135px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slide-title-h2 {
+    color: #1F1F24;
+    font-size: 48px;
+    line-height: 60px;
+  }
 
 .slick-block-photo-homepage {
     left: 24%;
     width: 76%;
     position: relative;
     z-index: 1;
+    margin-top: 42px;
 }
 
 .slick-slider {
@@ -41,7 +57,6 @@
 
 .slider-first-p-homepage {
     font-weight: 700;
-    font-size: 18px;
     line-height: 22px;
 }
 
@@ -81,13 +96,11 @@
 .homepage-arrow-container {
     height: 532px;
     width: 38%;
-    border: 1px solid #1F1F24;
     z-index: -100;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: -32.2%;
 }
 
 .homepage-arrow-container:first-child {
@@ -149,9 +162,65 @@ border: 4px solid rgba(31,31,36, .5);
 
 
 
+            .border-default {
+            border: 1px solid rgba(31,31,36, .5);
+            }
+
+            .border-yellow {
+            border: 1px solid #FFD600;
+            }
+            .border-default-circle {
+            border: 4px solid rgba(31,31,36, .5);
+            }
+
+            .border-yellow-circle {
+            border: 4px solid #FFD600;
+            }
+
+            .title-none {
+                display: none;
+            }
+
+            .sliderEvents-block-side {
+                right: -32.2%;
+            }
+
+            .sliderEvents-slider-side {
+                left: 0;
+            }
+
+            .sliderOnline-block-side {
+                left: -32.2%;
+            }
+
+            .sliderOnline-slider-side {
+                left: 24%;
+            }
+
+            .display-none {
+                display: none;
+            }
+
+            .homepage-arrow-counte-under {
+                display: flex;
+                gap: 17px;
+                
+            }
+
+            
+
+          
+
+            
+
+
+
+
 @media only screen and (max-width: 768px) {
 
-    .slick-block-photo-homepage {
+    .homepage-arrow-container {
         display: none;
     }
+
+    
 }

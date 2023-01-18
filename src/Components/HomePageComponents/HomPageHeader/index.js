@@ -96,13 +96,7 @@ function HomePageHeader() {
                       </div>
                  </div>
               </div>
-              <div className="homepage-slide-title">
-                      <h2 className="slide-title-h2">Online</h2>
-                      <div className="homepage-stroke"></div>
-                      <div className="homepage-slide-title-All">
-                        <span>All</span>
-                      </div>
-              </div>
+              
     </div>
   );
 }

@@ -135,20 +135,7 @@
       align-items: center;
     }
 
-    .homepage-slide-title {
-      display: flex;
-      padding-right:120px;
-      padding-left: 135px;
-      margin-top: -91px;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .slide-title-h2 {
-      color: #1F1F24;
-      font-size: 48px;
-      line-height: 60px;
-    }
+    
 
     .homepage-stroke {
       height: 1px;
@@ -227,7 +214,7 @@
       min-width: 164px;
     }
 
-    .homepage-slide-title {
+    .homepage-stroke {
       display: none;
     }
 

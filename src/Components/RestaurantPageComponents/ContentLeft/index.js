@@ -22,6 +22,13 @@ function ContentLeft() {
     
       .then((response) => response.json())
       .then((json) => setPhotos(json));
+
+      return () => {
+        fetch("https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4")
+                    
+          .then((response) => response.json())
+          .then((json) => setPhotos(json));
+      }
   }, []);
 
   useEffect(() => {

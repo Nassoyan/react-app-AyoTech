@@ -102,7 +102,7 @@ function SLiderBubblePhoto() {
           {slideArray?.map(function (item, index) {
             return (
               <div key={index} className="slider-photo-container">
-                <img src={item.img} />
+                <img src={item.url} />
                 <div className="slider-photo-div-container">
                     <p className="slider-first-p">{item.name}</p>
                 <p className="slider-second-p">{item.text}</p>

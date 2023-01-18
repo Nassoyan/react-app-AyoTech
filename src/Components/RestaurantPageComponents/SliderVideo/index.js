@@ -96,7 +96,7 @@ function SLiderBubbleVideo() {
         {slideArray?.map(function (item, index) {
           return (
             <div key={index} className="slider-container">
-              <img src={item.img} />
+              <img src={item.url} />
 
             </div>
           );
