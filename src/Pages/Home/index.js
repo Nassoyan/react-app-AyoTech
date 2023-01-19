@@ -10,56 +10,33 @@ function Home() {
 
             <SliderHomePage 
                 title="Online" 
+                slideShow={3}
                 borderColor="border-default"
                 photos = {slideArray} 
-                fontSize="18px"
-                circle="border-default-circle" 
-                cartSide="sliderOnline-block-side"
-                sliderSide="sliderOnline-slider-side"
+                cartSide="homepage-arrow-container"
+                sliderSide=""
             />
 
             <SliderHomePage 
                 title="Events" 
+                slideShow={4}
                 borderColor="border-yellow" 
                 photos={slideImgArray} 
-                className="title-none" 
-                fontSize="16px" 
-                circle="border-yellow-circle"
-                cartSide="sliderEvents-block-side"
-                sliderSide="sliderEvents-slider-side"
+                cartSide="cartSide"
+                sliderSide="sliderSide"
+
              />
 
             <SliderHomePage 
                 title="Restaurants" 
-                borderColor="border-default"
-                photos = {slideArray} 
-                fontSize="18px"
-                circle="border-default-circle" 
-                cartSide="sliderOnline-block-side"
-                sliderSide="sliderOnline-slider-side"
-            />
-
-            <SliderHomePage 
-                title="Clubs" 
-                borderColor="border-yellow" 
+                slideShow={4}
+                borderColor="border-blue" 
                 photos={slideImgArray} 
-                className="title-none" 
-                fontSize="16px" 
-                circle="border-yellow-circle"
-                cartSide="sliderEvents-block-side"
-                sliderSide="sliderEvents-slider-side" 
-            />
+                cartSide="homepage-arrow-container blueBorder "
+                sliderSide=""
 
-            <SliderHomePage 
-                title="Tours" 
-                borderColor="border-default"
-                photos = {slideArray} 
-                fontSize="18px"
-                circle="border-default-circle" 
-                cartSide="sliderOnline-block-side"
-                sliderSide="sliderOnline-slider-side"
-                display="display-none"
-            />
+             />
+            
             <Footer/>
         </div>
     )
