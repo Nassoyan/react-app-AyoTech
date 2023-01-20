@@ -35,8 +35,7 @@ function ContentLeft() {
     photos?.length && setChangeImage(photos[0].url);
   }, [photos]);
 
-  function render() {}
-
+  
  const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
   // const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
 

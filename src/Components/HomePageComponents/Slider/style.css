@@ -1,162 +1,177 @@
-.homepage-slider-wrapper {
-    position: relative;
-    margin-top: -96px;
-    margin-bottom: 161px;
-}
+    .homepage-slider-wrapper {
+        position: relative;
+        margin-bottom: 161px;
+        margin-top: 90px;
+    }
 
-.homepage-slide-title {
-    display: flex;
-    padding-right:120px;
-    padding-left: 135px;
-    justify-content: space-between;
-    align-items: center;
-  }
+    .homepage-slide-title {
+        display: flex;
+        padding-right:120px;
+        padding-left: 135px;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-  .slide-title-h2 {
-    color: #1F1F24;
-    font-size: 48px;
-    line-height: 60px;
-  }
+    .slide-title-h2 {
+        color: #1F1F24;
+        font-size: 48px;
+        line-height: 60px;
+    }
 
-.slick-block-photo-homepage {
-    left: 24%;
-    width: 76%;
-    position: relative;
-    z-index: 1;
-    margin-top: 42px;
-}
+    .slick-block-photo-homepage {
+        left: 24%;
+        width: 76%;
+        position: relative;
+        z-index: 1;
+        margin-top: 42px;
+    }
 
-.slick-slider {
-    padding-top: 25px;
-}
+    .slick-slider {
+        padding-top: 25px;
+    }
 
-.slider-photo-title-homepage {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 100%;
-}
+    .slick-slide {
+        max-height: 480px;
+    }
 
-.slider-photo-container-homepage>img {
-    height: 238px;
-    width: 100%;
-    margin-top: 32px;
-}
+    .slider-photo-title-homepage {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 100%;
+    }
 
-.slider-photo-div-container-homepage {
-    padding: 24px;
-    border: 1px solid #E3E3EC;
-    background: #FFFFFF;
-}
+    .slider-photo-container-homepage>img {
+        height: 238px;
+        width: 100%;
+        margin-top: 32px;
+    }
 
-.slider-photo-container-homepage {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 90px;
-}
+    .slider-photo-div-container-homepage {
+        padding: 24px;
+        border: 1px solid #E3E3EC;
+        background: #FFFFFF;
+    }
 
-.slider-first-p-homepage {
-    font-weight: 700;
-    line-height: 22px;
-}
+    .slider-photo-container-homepage {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
 
-.slider-second-p-homepage {
-    margin-top: 18px;
-    margin-bottom: 16px;
-    color: #A9A9B9;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
+    .slider-first-p-homepage {
+        font-weight: 700;
+        line-height: 22px;
+    }
 
-.SliderPrevArrow-photo-homepage {
-    position: absolute;
-    left: -31px;
-    top: 202.5px;
-}
+    .slider-second-p-homepage {
+        margin-top: 18px;
+        margin-bottom: 16px;
+        color: #A9A9B9;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
 
-.SliderNextArrow-photo-homepage {
-    position: absolute;
-    right: 731px;
-    top: 202.5px;
-}
+    .SliderPrevArrow-photo-homepage {
+        position: absolute;
+        left: -31px;
+        top: 202.5px;
+    }
 
-.stars-container-slider-homepage {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-}
+    .SliderNextArrow-photo-homepage {
+        position: absolute;
+        right: 731px;
+        top: 202.5px;
+    }
 
-.stars-container-slider-homepage span:last-child svg path  {
-    fill: #E3E3EC;
-}
+    .stars-container-slider-homepage {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .stars-container-slider-homepage span:last-child svg path  {
+        fill: #E3E3EC;
+    }
 
 
 
-.homepage-arrow-container:first-child {
-    padding-top: 114px;
-}
+    .homepage-arrow-container:first-child {
+        padding-top: 114px;
+    }
 
-.homepage-arrow-circle-2 {
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .homepage-arrow-circle-2 {
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.homepage-arrow-circle {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
+    .homepage-arrow-circle {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
 
-.hom-slider-red-circle {
-    width: 18px;
-    height: 18px;
-    background: #EB5757;
-    border-radius: 50%;
-}
+    .hom-slider-red-circle {
+        width: 18px;
+        height: 18px;
+        background: #EB5757;
+        border-radius: 50%;
+    }
 
-.home-slide-span {
-    color: #C9CCD3;
-}
+    .home-slide-span {
+        color: #C9CCD3;
+    }
 
-.homepage-arrow-circle {
-    width: 56px;
-    height: 56px;
-    border: 4px solid rgba(31,31,36, .5);
-}
+    .homepage-arrow-circle {
+        width: 56px;
+        height: 56px;
+        border: 4px solid rgba(31,31,36, .5);
+    }
 
-.homepage-arrow-count {
-    display: flex;
-    gap: 17px;
-    margin-top: 71px;
+    .homepage-arrow-count {
+        display: flex;
+        gap: 17px;
+        margin-top: 71px;
 
-}
+    }
 
-.arrowcount-secondspan {
-    padding-top: 30px;
-}
+    .arrowcount-secondspan {
+        padding-top: 30px;
+    }
 
-.homepage-slide-events {
-    display: flex;
-    padding-right:120px;
-    padding-left: 135px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
-}
+    .homepage-slide-events {
+        display: flex;
+        padding-right:120px;
+        padding-left: 135px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+    }
 
-.homepage-stroke-div {
-    margin-top: 8px;
-}
+    .homepage-stroke-div {
+        margin-top: 8px;
+    }
+
+    .slider-under {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 54px;
+    }
+
+    
+
 
 
 
 
             
-
+            /* this is sliders carts left side */
             .homepage-arrow-container {
                 height: 532px;
                 width: 38%;
@@ -167,7 +182,11 @@
                 position: absolute;
                 left: -32.2%;
             }
+            /* this is sliders cart left side */
 
+
+
+            /* this is sliders cart right side */
             .cartSide {
                 height: 532px;
                 width: 38%;
@@ -179,20 +198,76 @@
                 right: 0;
                 padding-top: 114px;
             }
+            /* this is sliders cart right side */
 
+
+
+            /* deleting 3rt p after first slider */
+            .sliderSide  .second-tlt-inner-homepage {
+                display: none;
+            }
+            /* deleting 3rt p after first slider */
+
+
+
+            /* customizing 3rt p after first slider */
+            .displayNone .slider-photo-div-container-homepage {
+                padding: 16px 0 0 0;
+                background: unset;
+            }
+
+            .displayNone .slider-photo-div-container-homepage .slider-second-p-homepage {
+                margin: 8px 0 0 0;
+            }
+            .second-tlt-inner-homepage {
+                display: none;
+            }
+             /* customizing 3rt p after first slider */
+
+             .displayNone .slider-photo-container-homepage>img {
+                height: 412px;
+                object-fit: cover;
+             }
+
+             .displayNone {
+                padding: 0;
+             }
+
+
+
+             /*deleting border of restaurants sliders div*/
+             .displayNone .slider-photo-div-container-homepage {
+                border: unset;
+             }
+             /*deleting border of restaurants sliders div*/
+
+
+
+             
+
+            /* customizing yellow circl border-color second slider */
             .cartSide .homepage-arrow-circle {
                 border: 4px solid #FFD600;
             }
-          
+            /* customizing yellow circl border-color second slider */
+
+
+
+            /* customizing yellow border second slider */
             .cartSide .homepage-stroke-div>div {
             background: #FFD600 !important;
             }
+            /* customizing yellow border second slider */
 
+                       
+            /* customizing yellow border slider to be right side */
             .sliderSide {
                 right: 32%;
                 position: relative;
             }
-            
+            /* customizing yellow border slider to be right side */
+
+
             .border-default {
                 border: 1px solid rgba(31,31,36, .5);
             }
@@ -205,30 +280,80 @@
                 border: 1px solid #0085FF;
             }
 
-            .circleBlue {
+            .blueBorder >  .homepage-arrow-circle {
                 border: 4px solid #0085FF;
             }
-            /* .cartWide{
+
+            .blueBorder .homepage-arrow-count>div {
+                color:#0085FF;
+            }
+
+            .blueBorder .homepage-stroke-div>div {
+                background: #0085FF ;
+            }
+
+            .blueBorder .homepage-arrow-circle svg path  {
+                fill: #0085FF;
+            }
+
+            .cartUnderSide {
+                margin-top: 310px;
                 height: 328px;
                 width: 133%;
-                position: absolute;
-                border: 2px solid #0085FF !important;
-                top: 330px;
-            } */
+            }
 
-            /* .cart-inner-count {
-                left: 40%;
-                position: absolute;
+            .cartUnderSide .homepage-arrow-count {
+                margin: 0;
+            }
+
+            .cartUnderSide .slider-under-arrows {
                 display: flex;
-                flex-direction: column;
-                bottom: 19%;
-                align-items: center;
-            } */
+                position: absolute;
+                bottom: 54px;
+                left: 57%;
+                gap: 16px;
+            }
+
+            .sliderUnderImg .slider-photo-div-container-homepage {
+                padding: 0;
+            }
+            .sliderUnderImg .slider-photo-div-container-homepage :first-child {
+                margin-top: 16px;
+            }
+
+            .cartUnderSide .slider-under-arrows :nth-child(2) {
+                margin: 0;           
+            }
+
+            .sliderUnderImg .slider-photo-container-homepage>img {
+                height: 238px;
+                object-fit: cover;
+             }
+
+             .slick-block-photo-homepage-under {
+                margin: 0;
+             }
+
+             .slick-block-photo-homepage-under .homepage-arrow-circle  {
+                border: 4px solid rgba(0,133,255, .2)
+             }
+
+             .sliderHeader {
+                padding-top: 108px;
+             }
+
+        
+            
+
 
 
 @media only screen and (max-width: 768px) {
 
     .homepage-arrow-container {
+        display: none;
+    }
+
+    .cartSide {
         display: none;
     }
 

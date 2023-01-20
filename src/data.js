@@ -59,11 +59,11 @@ export const slideImgArray = [
    text: "06th Mar"
   },
   {url: "https://britonthemove.com/wp-content/uploads/2022/05/Ibiza-Clubs.jpg",
-   text: "Purple party", 
+   name: "Zumba party", 
    text: "06th Mar"
   },
   {url: "https://www.ravejungle.com/wp-content/uploads/2020/03/Glitterbox_Credit-H%C3%AF-Ibiza-2019-5.jpg",
-   name: "Zumba party", 
+   name: "Purple Party", 
    text: "06th Mar"
   },
   {url: "https://aceworkers.b-cdn.net/wp-content/uploads/2021/02/pacha-ibiza.jpg",
