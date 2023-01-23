@@ -16,23 +16,6 @@ import LoveIcon from "../../../Icons/contentIcons/loveIcon";
 import PlayVideo from "../../../Icons/contentIcons/playVideo";
 import bannerImg from "../../../Images/bannerImg.png"
 import "./style.css";
-// import PlayVideo from "../../Icons/contentIcons/playVideo";
-// import Dollar from "../../Icons/contentIcons/dollar";
-// import LoveIcon from "../../Icons/contentIcons/loveIcon";
-// import Geo from "../../Icons/contentIcons/geo";
-// import Globe from "../../Icons/contentIcons/globe";
-// import Mobile from "../../Icons/Cont-rightIcons/mobile";
-// import VkIcon from "../../Icons/Cont-rightIcons/vk";
-// import Fb from "../../Icons/Cont-rightIcons/fb";
-// import Insta from "../../Icons/Cont-rightIcons/Insta";
-// import Message from "../../Icons/Cont-rightIcons/message";
-// import Qr from "../../Icons/Cont-rightIcons/Qr";
-// import RingBell from "../../Icons/Cont-rightIcons/RingBell";
-// import Bill from "../../Icons/Cont-rightIcons/Bill";
-// import Forks from "../../Icons/Cont-rightIcons/forks";
-// import bannerImg from "../../Images/bannerImg.png";
-// import PlayVideo from "../../../../Icons/contentIcons/playVideo";
-// import Dollar from "../../../../Icons/contentIcons/dollar";
 
 function ContentRight() {
   const mediaArray = [<VkIcon />, <Fb />, <Insta />, <Insta />];

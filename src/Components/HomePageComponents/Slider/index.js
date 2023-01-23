@@ -67,6 +67,7 @@ function SliderHomePage(props) {
           {
             breakpoint: 768,
             settings: {
+              dots: true,
               slidesToShow: 1,
               slidesToScroll: 1,
             },

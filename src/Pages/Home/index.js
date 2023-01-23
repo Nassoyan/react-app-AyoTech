@@ -15,6 +15,7 @@ function Home() {
                 photos = {slideArray} 
                 cartSide="homepage-arrow-container  "
                 sliderSide=""
+                sliderHeader="sliderHeader"
             />
 
             <SliderHomePage 

@@ -15,22 +15,47 @@ import bali from "../../../Images/bali.png"
 import smallBali from "../../../Images/bali-small.png"
 import { homePageTitleArray } from "../../../data";
 import HomeArrowDown from "../../../Icons/HomePageIcons/arrowDown";
+import Header from "../../RestaurantPageComponents/Header";
 
 
 function HomePageHeader() {
 
-    const restaurantItem = array[2]
-    
 
+    // const [state, setState] = useState(false);
+    // function arrowChange() {
+    //   setState(!state);
+    // }
 
-    const [state, setState] = useState(false);
-    function arrowChange() {
-      setState(!state);
-    }
-
-    const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
+    // const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
   return (
-    <div className="homepage-wrapper">
+    <div>
+      <Header
+      headerBackGround="headerBackGround"
+      />
+              <img className="bali-img" src={bali} />
+              <img className="bali-img-small" src={smallBali} />
+              <div className="homepage-header-titles">
+                 <div className="homepage-title-container">
+                      {homePageTitleArray.map((el, index) => {
+                        return <div key={index} className="homepage-title-inner">
+                                <div className="homepage-title-inner2">
+                                <span className="homepage-title-span">{el.name}</span> 
+                                  <span className="homepage-title-span-second">{el.date}</span> 
+                                </div>
+                             </div>
+                      })}
+                      <div className="homepage-title-inner-last">
+                          <HomeArrowDown/>
+                      </div>
+                 </div>
+              </div>
+              
+    </div>
+  );
+}
+export default HomePageHeader
+
+{/* <div className="homepage-wrapper">
       <div className="header-wrapper-homepage">
         <div className="header-navigation">
           <div className="logo-wrapper-homepage">
@@ -78,28 +103,6 @@ function HomePageHeader() {
               <Logo2 />
            </div>
         </div>
-      </div>
-              <img className="bali-img" src={bali} />
-              <img className="bali-img-small" src={smallBali} />
-              <div className="homepage-header-titles">
-                 <div className="homepage-title-container">
-                      {homePageTitleArray.map((el, index) => {
-                        return <div key={index} className="homepage-title-inner">
-                                <div className="homepage-title-inner2">
-                                <span className="homepage-title-span">{el.name}</span> 
-                                  <span className="homepage-title-span-second">{el.date}</span> 
-                                </div>
-                             </div>
-                      })}
-                      <div className="homepage-title-inner-last">
-                          <HomeArrowDown/>
-                      </div>
-                 </div>
-              </div>
-              
-    </div>
-  );
-}
-export default HomePageHeader
+      </div> */}
 
 

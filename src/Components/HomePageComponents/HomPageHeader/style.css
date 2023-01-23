@@ -1,64 +1,63 @@
-  .homepage-wrapper {
+  /* .homepage-wrapper {
     position: relative;
     display: block;
     animation: animatedmodel;  
     animation-duration: 0.6s;
-  }
+  } */
   
-  .header-wrapper-homepage {
+  /* .header-wrapper-homepage {
     display: block;
     width: 100%;
     position: absolute;
     z-index: 2;
-    
-  }
+  } */
 
-  @keyframes animatedmodel {
+  /* @keyframes animatedmodel {
     from {
       opacity: 0.5;
       transform: scale(1);
     }
-  }
+  } */
   
-  .nav-block-homepage {
+  /* .nav-block-homepage {
     display: flex;
     align-items: center;
     padding: 0 0 0 30px;
     font-size: 16px;
     line-height: 19px;
-  }
+  } */
 
-  .nav-block-inner-homepage {
+  /* .nav-block-inner-homepage {
     display: flex;
     flex: 1;
-  }
+  } */
  
-  .nav-text-homepage {
+  /* .nav-text-homepage {
     color: white;
     text-transform: capitalize;
     font-size: 16px;
     cursor: pointer;
-  }
+  } */
 
-  .homepage-link {
+  /* .homepage-link {
     text-decoration: unset;
-  }
+  } */
 
-  .logo-wrapper-homepage {
+  /* .logo-wrapper-homepage {
     display: flex;
     justify-content: center;
     width: 105px;
     height: 689px;
     border-right: 1px solid  rgba(255,255,255, .2 );
-  }
+  } */
   
-  .logo-wrapper-homepage>svg {
+  /* .logo-wrapper-homepage>svg {
     margin-top: 16px;
-  }
+  } */
   
-  .nav-block-homepage :not(:last-child) {
+  /* .nav-block-homepage :not(:last-child) {
     margin-right: 40px;
-  }
+  } */
 
   .bali-img {
     position: relative;
@@ -88,6 +87,7 @@
     z-index: 1;
     animation: animatedmodel;  
     animation-duration: 0.7s;
+    bottom: 80px;
     }
 
     .homepage-title-container {
@@ -219,3 +219,5 @@
     }
 
 } 
+
+

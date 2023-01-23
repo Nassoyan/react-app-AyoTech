@@ -5,12 +5,6 @@ import Star from "../../../Icons/contentIcons/stars";
 import ProgressBar from "../ProgressBar";
 import "./style.css"
 import bannerImg from "../../../Images/bannerImg.png";
-// import { bannerData } from "../../data";
-// // import img from "../../Images/imgone.png";
-// import Star from "../../Icons/contentIcons/stars";
-// import ProgressBar from "../RestaurantPage Components/Footer/ProgressBar";
-// import BannerPLayIcon from "../../Icons/contentIcons/BannerPlayIcon";
-
 
 function Feedback() {
   const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];

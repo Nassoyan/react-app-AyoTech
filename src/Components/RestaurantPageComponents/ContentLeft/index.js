@@ -1,14 +1,9 @@
+
+
 import React, { useState, useEffect } from "react";
 import "./style.css";
 import Vk from "../../../Icons/contentIcons/vk";
-// import Fb from "../../../../Icons/contentIcons/fbIcon";
-// import Insta from "../../../../Icons/contentIcons/insta";
 import Star from "../../../Icons/contentIcons/stars";
-// import imgone from "../../Images/imgone.png";
-// import img1 from "../../Images/img1.png";
-// import img2 from "../../Images/img2.png";
-// import img3 from "../../Images/img3.png";
-// import img4 from "../../Images/img4.png";
 import ContentRight from "../ContentRight";
 import LoveIcon from "../../../Icons/contentIcons/loveIcon";
 import SmallPlayIcon from "../../../Icons/HeaderIcons/smallImagePlayIcon";

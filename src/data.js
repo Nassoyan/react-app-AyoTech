@@ -12,12 +12,6 @@ export const popUp =[
     name: "item",
   },
   {
-    name: "Shop",
-  },
-  {
-    name: "Job",
-  },
-  {
     name: "item",
   },
   {
@@ -35,6 +29,12 @@ export const popUp =[
   {
     name: "item",
   },
+  {
+    name: "item",
+  },
+  {
+    name: "item",
+  }
 ]
 
 export const slideImgArray = [
@@ -83,8 +83,6 @@ export const slideImgArray = [
    text: "08th Mar"
   },
 ]
-
-
 
 export const homePageTitleArray =  [
   {

@@ -3,10 +3,6 @@ import WhiteStar from "../../../Icons/contentIcons/WhiteStars";
 import "./style.css";
 import FeedPerson from "../../../Icons/contentIcons/feedbackPerson";
 import FeedEmail from "../../../Icons/contentIcons/feedE-mail";
-// import Star from "../../Icons/contentIcons/stars";
-// import WhiteStar from "../../Icons/contentIcons/WhiteStars";
-// import FeedPerson from "../../Icons/contentIcons/feedbackPerson";
-// import FeedEmail from "../../Icons/contentIcons/feedE-mail";
 
 function RegisterField() {
   const feedbackStarArray = [
