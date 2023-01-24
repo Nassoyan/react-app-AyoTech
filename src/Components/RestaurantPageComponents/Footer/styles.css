@@ -56,12 +56,13 @@
   float: left;
   border: none;
   padding-left: 13px;
+  outline-style: none;
 }
 
 .footer-btn {
   background: #EB5757;
   width: 80px;
-  height: 42px;
+  height: 40px;
   border: none;
   outline-style: none;
   color: #FFFFFF;
@@ -137,6 +138,7 @@
 
     .footer-input-block {
       display: flex;
+      
     }
 
     .footer-final-text {

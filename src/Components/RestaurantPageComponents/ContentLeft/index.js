@@ -9,22 +9,29 @@ import LoveIcon from "../../../Icons/contentIcons/loveIcon";
 import SmallPlayIcon from "../../../Icons/HeaderIcons/smallImagePlayIcon";
 
 function ContentLeft() {
-  const [photos, setPhotos] = useState();
+  const [photos, setPhotos] = useState( [
+    {url: "https://onestep4ward.com/wp-content/uploads/2011/01/Destino-Ibiza-Pacha.jpg",
+     name: "Club party", 
+     text: "06th Mar"
+    },
+    {url: "https://a.cdn-hotels.com/gdcs/production7/d1643/aad2d40a-3779-4452-bdda-b54f04b5b961.jpg",
+     name: "Night party", 
+     text: "06th Mar"
+    },
+    {url: "https://s4x9x8w4.stackpathcdn.com/sites/default/files/styles/auto_1500_width/public/article-images/137508/slideshow-1644163476.jpg",
+     name: "Beach party", 
+     text: "06th Mar"
+    },
+    {url: "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Spain/Ibiza/hi-ibiza-ibiza-travel-guide-nightlife.jpg?imwidth=480",
+     name: "Lime party", 
+     text: "06th Mar"
+    },
+  ]);
+
+
   const [changeImage, setChangeImage] = useState();
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4")
-    
-      .then((response) => response.json())
-      .then((json) => setPhotos(json));
-
-      return () => {
-        fetch("https://jsonplaceholder.typicode.com/photos/?_start=0&_limit=4")
-                    
-          .then((response) => response.json())
-          .then((json) => setPhotos(json));
-      }
-  }, []);
+ 
 
   useEffect(() => {
     photos?.length && setChangeImage(photos[0].url);
@@ -32,13 +39,12 @@ function ContentLeft() {
 
   
  const starArray = [<Star />, <Star />, <Star />, <Star />, <Star />];
-  // const imgArray = [<img1/>, <img2/>, <img3/>, <img4/>]
 
   return (
     <div className="main-title">
       <div className="content-left">
         <div className="restaurant-name">
-          <span>Restaurant Name</span>
+          <span>Restaurants</span>
         </div>
         <div className="second-title">
           <div className="second-tlt-inner">

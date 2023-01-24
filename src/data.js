@@ -114,24 +114,31 @@ export const homePageTitleArray =  [
 const array = [
   {
     name: "Онлайн",
+    link: "#",
   },
   {
     name: "Эвенты",
+        link: "#",
   },
   {
     name: "Рестораны",
+        link: "/restaurants",
   },
   {
     name: "Клубы",
+        link: "#",
   },
   {
     name: "Жилье",
+        link: "#",
   },
   {
     name: " траспорт",
+        link: "#",
   },
   {
     name: "Еще...",
+        link: "#",
   },
 ];
 export default array;

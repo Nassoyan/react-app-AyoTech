@@ -234,7 +234,8 @@
     .small-images {
       justify-content: unset;
       gap: 16px;
-      overflow: hidden;
+      overflow:scroll;
+
    }
 
    .small-images-playIcon {

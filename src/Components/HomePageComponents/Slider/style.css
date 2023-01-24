@@ -12,6 +12,16 @@
         align-items: center;
     }
 
+    .homepage-slide-title-All {
+        width: 67px;
+        height: 43px;
+        border: 2px solid #0085FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0085FF;
+    }
+
     .slide-title-h2 {
         color: #1F1F24;
         font-size: 48px;
@@ -392,6 +402,10 @@
     .homepage-slide-title {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .sliderHeaderNone {
+        display: none;
     }
 
 

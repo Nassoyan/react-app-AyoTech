@@ -1,16 +1,4 @@
 import "./style.css"
-import { useState } from "react";
-import { Link } from "react-router-dom";
-
-import Heart from "../../../Icons/HeaderIcons/heart";
-import Box from "../../../Icons/HeaderIcons/box";
-import Search from "../../../Icons/HeaderIcons/search";
-import Plus from "../../../Icons/HeaderIcons/plusSvg";
-import Human from "../../../Icons/HeaderIcons/human";
-import Logo from "../../../Icons/HeaderIcons/logo";
-import Logo2 from "../../../Icons/HeaderIcons/logo2";
-import Arrow from "../../../Icons/HeaderIcons/arrow";
-import array from "../../../data";
 import bali from "../../../Images/bali.png"
 import smallBali from "../../../Images/bali-small.png"
 import { homePageTitleArray } from "../../../data";
@@ -21,16 +9,10 @@ import Header from "../../RestaurantPageComponents/Header";
 function HomePageHeader() {
 
 
-    // const [state, setState] = useState(false);
-    // function arrowChange() {
-    //   setState(!state);
-    // }
-
-    // const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
   return (
-    <div>
-      <Header
-      headerBackGround="headerBackGround"
+    <div style={{position: "relative"}}>
+      <Header 
+      headerHomePage="headerHomePage"
       />
               <img className="bali-img" src={bali} />
               <img className="bali-img-small" src={smallBali} />

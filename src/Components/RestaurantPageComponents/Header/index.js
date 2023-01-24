@@ -17,7 +17,7 @@ import { popUp } from "../../../data";
 
 function Header(props) {
 
-  const {headerBackGround} = props
+  const {headerHomePage} = props
   
   const [state, setState] = useState(false);
   function arrowChange() {
@@ -27,19 +27,18 @@ function Header(props) {
   const [openSideBar, setOpenSideBar] = useState(false);
   function openMenuBar() {
     setOpenSideBar(true);
+    document.body.style.overflow = "hidden"
   }
   function closeMenuBar() {
     setOpenSideBar(false);
+    document.body.style.overflow = "visible"
   }
-
-  const restaurantItem = array[2]
-
 
   const icons = [<Heart />, <Box />, <Search />, <Plus />, <Human />];
   return (
     <div>
-      <div className={`header-wrapper`}>
-        <div className={`header-navigation ${headerBackGround}`}>
+      <div className={`header-wrapper ${headerHomePage}`}>
+        <div className={`header-navigation `}>
           <div className="logo-wrapper">
             <Link to="/">
               <Logo />
@@ -49,7 +48,7 @@ function Header(props) {
             <div className="nav-block">
               {array.map(function (el, index) {
                 return (
-                  <Link className="header-link" key={index} to={el===restaurantItem ? "/restaurants" : "/"}>
+                  <Link className="header-link" key={index} to={el.link}>
                     <p className="nav-text-homepage" key={index}>
                       {el.name}
                     </p>
@@ -95,12 +94,13 @@ function Header(props) {
               <div className="sidebar-ul">
               {popUp.map((el, index) => {
                 return (
-                  <ul key={index}>
+                  <div className="sidebar-div">
+                    <ul key={index}>
                      <li>
                        <a>{el.name}</a>
                      </li>
                   </ul>
-                )
+                  </div>)
               })}
               </div>
           </div>

@@ -28,7 +28,7 @@ function Home() {
              />
 
             <SliderHomePage 
-                title="Restaurants" 
+                title="Mia" 
                 slideShow={4}
                 borderColor="border-blue" 
                 photos={slideImgArray} 
@@ -53,6 +53,8 @@ function Home() {
                 cartSide="homepage-arrow-container blueBorder cartUnderSide"
                 sliderSide="sliderUnderImg"
                 sliderUnder="slick-block-photo-homepage-under"
+                sliderHeader="sliderHeaderNone"
+
              />
 
             <SliderHomePage 
@@ -63,7 +65,8 @@ function Home() {
                 cartSide="homepage-arrow-container blueBorder cartUnderSide"
                 sliderSide="sliderUnderImg"
                 sliderUnder="slick-block-photo-homepage-under"
-                sliderHeader="sliderHeader"
+                sliderHeader="sliderHeaderNone"
+
              />
             
             <Footer/>
